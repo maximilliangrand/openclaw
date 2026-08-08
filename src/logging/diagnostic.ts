@@ -44,7 +44,6 @@ import {
 } from "./diagnostic-session-context.js";
 import {
   requestStuckSessionRecovery,
-  requestStuckSessionRecoveryOutcome,
   resetDiagnosticSessionRecoveryCoordinatorForTest,
   type RecoverStuckSession,
 } from "./diagnostic-session-recovery-coordinator.js";
@@ -196,7 +195,7 @@ export function isStuckSessionRecoveryEnabled(config?: OpenClawConfig): boolean 
 export async function requestStuckDiagnosticSessionRecovery(
   params: StuckSessionRecoveryRequest,
 ): Promise<StuckSessionRecoveryOutcome | undefined> {
-  return requestStuckSessionRecoveryOutcome({
+  return requestStuckSessionRecovery({
     recover: recoverStuckSession,
     classification: {
       eventType: "session.stalled",
@@ -1356,7 +1355,7 @@ export function startDiagnosticHeartbeat(
         if (!classification.recoveryEligible && !activeAbortEligible) {
           continue;
         }
-        requestStuckSessionRecovery({
+        void requestStuckSessionRecovery({
           recover: opts?.recoverStuckSession ?? recoverStuckSession,
           classification,
           request: {
@@ -1409,5 +1408,15 @@ export function resetDiagnosticStateForTest(): void {
   resetDiagnosticPhasesForTest();
   resetDiagnosticStabilityRecorderForTest();
   resetDiagnosticStabilityBundleForTest();
+}
+
+const testing = {
+  resetDiagnosticStateForTest,
+  resolveStuckSessionAbortMs,
+  resolveStuckSessionWarnMs,
+};
+
+if (process.env.VITEST || process.env.NODE_ENV === "test") {
+  (globalThis as Record<PropertyKey, unknown>)[Symbol.for("openclaw.diagnosticTestApi")] = testing;
 }
 /* oxlint-disable max-lines -- TODO: split this grandfathered oversized file. */

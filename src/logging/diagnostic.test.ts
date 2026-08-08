@@ -51,11 +51,13 @@ import {
   logMessageQueued,
   logSessionStateChange,
   markDiagnosticSessionProgress,
+  startDiagnosticHeartbeat as startDiagnosticHeartbeatImpl,
+} from "./diagnostic.js";
+import {
   resetDiagnosticStateForTest,
   resolveStuckSessionAbortMs,
   resolveStuckSessionWarnMs,
-  startDiagnosticHeartbeat as startDiagnosticHeartbeatImpl,
-} from "./diagnostic.js";
+} from "./diagnostic.test-support.js";
 
 function startDiagnosticHeartbeat(
   config?: Parameters<typeof startDiagnosticHeartbeatImpl>[0],
@@ -2892,7 +2894,7 @@ describe("stuck session recovery activity reconciliation", () => {
     // The aborted run was removed without markDiagnosticEmbeddedRunEnded, so the
     // activity flag survives the idle transition and otherwise resurfaces as
     // idle/embedded_run on every later liveness sweep.
-    requestStuckSessionRecovery({
+    void requestStuckSessionRecovery({
       recover: () => Promise.resolve(abortedOutcome()),
       classification: stalledClassification,
       request: {
@@ -2925,7 +2927,7 @@ describe("stuck session recovery activity reconciliation", () => {
     const state = getDiagnosticSessionState({ sessionId, sessionKey });
     state.queueDepth = 2;
 
-    requestStuckSessionRecovery({
+    void requestStuckSessionRecovery({
       recover: () => Promise.resolve(abortedOutcome()),
       classification: stalledClassification,
       request: {
@@ -2963,7 +2965,7 @@ describe("stuck session recovery activity reconciliation", () => {
     const state = getDiagnosticSessionState({ sessionId, sessionKey });
     state.queueDepth = 2;
 
-    requestStuckSessionRecovery({
+    void requestStuckSessionRecovery({
       recover: () => Promise.resolve(abortedOutcome()),
       classification: stalledClassification,
       request: {
@@ -3008,7 +3010,7 @@ describe("stuck session recovery activity reconciliation", () => {
       model: "gpt-5.5",
     });
 
-    requestStuckSessionRecovery({
+    void requestStuckSessionRecovery({
       recover: () => Promise.resolve(abortedOutcome()),
       classification: stalledClassification,
       request: {
@@ -3056,7 +3058,7 @@ describe("stuck session recovery activity reconciliation", () => {
       model: "gpt-5.5",
     });
 
-    requestStuckSessionRecovery({
+    void requestStuckSessionRecovery({
       recover: () => Promise.resolve(abortedOutcome()),
       classification: stalledClassification,
       request: {
@@ -3084,7 +3086,7 @@ describe("stuck session recovery activity reconciliation", () => {
     const state = getDiagnosticSessionState({ sessionId, sessionKey });
     const staleGeneration = state.generation;
 
-    requestStuckSessionRecovery({
+    void requestStuckSessionRecovery({
       recover: () => {
         // A requeued run started before the coordinator applied the outcome,
         // advancing the generation past the captured one.
@@ -3124,7 +3126,7 @@ describe("stuck session recovery activity reconciliation", () => {
     const state = getDiagnosticSessionState({ sessionId, sessionKey });
     const staleGeneration = state.generation;
 
-    requestStuckSessionRecovery({
+    void requestStuckSessionRecovery({
       recover: () => {
         markDiagnosticEmbeddedRunStarted({
           sessionId: "reply-run-1",
@@ -3167,7 +3169,7 @@ describe("stuck session recovery activity reconciliation", () => {
     const state = getDiagnosticSessionState({ sessionId, sessionKey });
     const staleGeneration = state.generation;
 
-    requestStuckSessionRecovery({
+    void requestStuckSessionRecovery({
       recover: () => {
         markDiagnosticEmbeddedRunStarted({
           sessionId: "reply-run-1",
@@ -3213,7 +3215,7 @@ describe("stuck session recovery activity reconciliation", () => {
     const state = getDiagnosticSessionState({ sessionId: replySessionId, sessionKey });
     state.queueDepth = 2;
 
-    requestStuckSessionRecovery({
+    void requestStuckSessionRecovery({
       recover: () =>
         Promise.resolve({
           ...abortedOutcome(),
@@ -3252,7 +3254,7 @@ describe("stuck session recovery activity reconciliation", () => {
     const state = getDiagnosticSessionState({ sessionId, sessionKey });
     state.queueDepth = 2;
 
-    requestStuckSessionRecovery({
+    void requestStuckSessionRecovery({
       recover: () => Promise.resolve(abortedOutcome()),
       classification: stalledClassification,
       request: {
@@ -3280,7 +3282,7 @@ describe("stuck session recovery activity reconciliation", () => {
     const state = getDiagnosticSessionState({ sessionId, sessionKey });
     const staleGeneration = state.generation;
 
-    requestStuckSessionRecovery({
+    void requestStuckSessionRecovery({
       recover: () => {
         markDiagnosticEmbeddedRunStarted({ sessionId, sessionKey });
         return Promise.resolve(abortedOutcome());
@@ -3318,7 +3320,7 @@ describe("stuck session recovery activity reconciliation", () => {
     const state = getDiagnosticSessionState({ sessionId, sessionKey });
     const staleGeneration = state.generation;
 
-    requestStuckSessionRecovery({
+    void requestStuckSessionRecovery({
       recover: () => {
         markDiagnosticEmbeddedRunStarted({ sessionId: "reply-run-1", sessionKey });
         return Promise.resolve(abortedOutcome());
@@ -3358,7 +3360,7 @@ describe("stuck session recovery activity reconciliation", () => {
     const state = getDiagnosticSessionState({ sessionId, sessionKey });
     const staleGeneration = state.generation;
 
-    requestStuckSessionRecovery({
+    void requestStuckSessionRecovery({
       recover: () => {
         markDiagnosticEmbeddedRunStarted({ sessionId, sessionKey });
         emitDiagnosticEvent({
@@ -3399,7 +3401,7 @@ describe("stuck session recovery activity reconciliation", () => {
     const state = getDiagnosticSessionState({ sessionId, sessionKey });
     const staleGeneration = state.generation;
 
-    requestStuckSessionRecovery({
+    void requestStuckSessionRecovery({
       recover: () => {
         markDiagnosticEmbeddedRunStarted({ sessionId: "reply-run-1", sessionKey });
         emitDiagnosticEvent({

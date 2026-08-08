@@ -173,7 +173,7 @@ function applyRecoveryOutcomeToDiagnosticState(params: {
   markActivity();
 }
 
-export function requestStuckSessionRecoveryOutcome(
+function requestStuckSessionRecoveryOutcome(
   params: RequestStuckSessionRecoveryParams,
 ): Promise<StuckSessionRecoveryOutcome | undefined> {
   const inFlightKey = recoveryRequestKey(params.request);
@@ -249,8 +249,10 @@ export function requestStuckSessionRecoveryOutcome(
   }
 }
 
-export function requestStuckSessionRecovery(params: RequestStuckSessionRecoveryParams): void {
-  void requestStuckSessionRecoveryOutcome(params);
+export function requestStuckSessionRecovery(
+  params: RequestStuckSessionRecoveryParams,
+): Promise<StuckSessionRecoveryOutcome | undefined> {
+  return requestStuckSessionRecoveryOutcome(params);
 }
 
 export function resetDiagnosticSessionRecoveryCoordinatorForTest(): void {
