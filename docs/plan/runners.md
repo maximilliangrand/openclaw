@@ -22,7 +22,7 @@ advances a milestone.
 | 2   | `openclaw resume` + web Continue in terminal               | in progress | #120664          |
 | 3   | `openclaw connect` one-paste onboarding + `/j/` join route | in progress | #122499          |
 | 4   | Picker: grouping, placement, liveness, enrichment          | in progress | #120804, #122531 |
-| 5   | Public worker ingress path                                 | not started | —                |
+| 5   | Public worker ingress path                                 | in progress | #122643          |
 | 6   | Node worker provider (device runners)                      | not started | —                |
 | 7   | Bundle push consent + runner updates                       | not started | —                |
 | 8   | Stop-and-continue moves                                    | not started | —                |
