@@ -36,7 +36,7 @@ const markAmbiguousThreadReply = (message: SlackMessageEvent): SlackMessageEvent
   _ambiguousThreadReply: true,
 });
 
-function isTransientSlackThreadLookupError(error: unknown): boolean {
+export function isTransientSlackThreadLookupError(error: unknown): boolean {
   if (error instanceof WebAPIRateLimitedError) {
     return true;
   }
@@ -49,6 +49,10 @@ function isTransientSlackThreadLookupError(error: unknown): boolean {
   }
   if (!(error instanceof WebAPIRequestError)) {
     return false;
+  }
+  // Slack Web API 8.0.0 wraps exhausted 429 retries as this uncoded request error.
+  if (/^A rate limit was exceeded \(url: .+, retry-after: \d+\)$/.test(error.original.message)) {
+    return true;
   }
   return collectErrorGraphCandidates(error.original, (current) => [
     current.cause,
