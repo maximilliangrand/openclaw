@@ -57,9 +57,12 @@ import {
   runWithGatewayIndependentRootWorkContinuation,
   tryBeginGatewayRootWorkAdmission,
 } from "../../../process/gateway-work-admission.js";
+import { AUTH_RATE_LIMIT_SCOPE_WORKER_ADMISSION } from "../../auth-rate-limit.js";
 import type { WorkerConnectionIdentity } from "../../worker-environments/connection-identity.js";
 import { MAX_RUNNING_WORKER_SESSION_TOOL_OPERATIONS } from "../../worker-environments/placement-session-tool-operations.js";
+import type { PublicWorkerIngressContext } from "../public-worker-ingress-context.js";
 import type { GatewayWsClient, WsHandshakePhase } from "../ws-types.js";
+import { runWorkerAdmissionBoundary } from "./worker-admission-boundary.js";
 
 type WorkerServiceResult<TResult, TFailure> =
   | { ok: true; result: TResult }
@@ -145,6 +148,7 @@ type WorkerWsMessageHandlerParams = {
   setLastFrameMeta(meta: { type?: string; method?: string }): void;
   logGateway: WorkerLogger;
   logWsControl: WorkerLogger;
+  publicAdmission?: PublicWorkerIngressContext;
 };
 
 function workerProtocolError(
@@ -422,6 +426,10 @@ export function attachWorkerWsMessageHandler(params: WorkerWsMessageHandlerParam
     params.close(code, reason);
   };
   const failHandshake = (code: number, reason: WorkerProtocolCloseReason) => {
+    params.publicAdmission?.rateLimiter?.recordFailure(
+      params.publicAdmission.clientIp,
+      AUTH_RATE_LIMIT_SCOPE_WORKER_ADMISSION,
+    );
     params.setHandshakeState("failed");
     params.setCloseCause(reason);
     params.logWsControl.warn(`worker admission rejected reason=${reason}`);
@@ -443,14 +451,21 @@ export function attachWorkerWsMessageHandler(params: WorkerWsMessageHandlerParam
   };
   const rejectAdmission = (
     id: string,
-    reason: WorkerProtocolCloseReason,
-    error = workerProtocolError(reason, { message: "worker admission rejected" }),
+    reason: WorkerProtocolCloseReason | "rate-limited",
+    error?: WorkerErrorShape,
     code = 1008,
+    opaqueOnPublicIngress = false,
   ) => {
+    const wireReason: WorkerProtocolCloseReason =
+      (opaqueOnPublicIngress && params.publicAdmission) || reason === "rate-limited"
+        ? "invalid-handshake"
+        : reason;
+    const wireError =
+      error ?? workerProtocolError(wireReason, { message: "worker admission rejected" });
     params.setHandshakeState("failed");
     params.setCloseCause(reason);
     params.logWsControl.warn(`worker admission rejected reason=${reason}`);
-    sendError(id, reason, error, code);
+    sendError(id, wireReason, wireError, code);
   };
 
   const handleConnect = async (
@@ -476,36 +491,39 @@ export function attachWorkerWsMessageHandler(params: WorkerWsMessageHandlerParam
       rejectAdmission(id, "protocol-mismatch");
       return;
     }
-    const admission =
-      (await params.service?.admitWorker(connect.admission)) ??
-      ({ ok: false, reason: "environment-unavailable" } as const);
-    if (!admission.ok) {
-      rejectAdmission(id, admission.reason);
-      return;
-    }
-    const ownershipFailure = params.service?.validateWorkerConnection(admission.identity);
-    if (ownershipFailure) {
-      rejectAdmission(id, ownershipFailure);
-      return;
-    }
-    const client: GatewayWsClient = {
-      socket: params.socket,
-      connect: {
-        minProtocol: connect.minProtocol,
-        maxProtocol: connect.maxProtocol,
-        client: connect.client,
-        role: "worker",
-        scopes: [],
+    const admission = await runWorkerAdmissionBoundary({
+      service: params.service,
+      admission: connect.admission,
+      publicAdmission: params.publicAdmission,
+      claim: (identity) => {
+        const client: GatewayWsClient = {
+          socket: params.socket,
+          connect: {
+            minProtocol: connect.minProtocol,
+            maxProtocol: connect.maxProtocol,
+            client: connect.client,
+            role: "worker",
+            scopes: [],
+          },
+          connId: params.connId,
+          connectionKind: "worker",
+          worker: identity,
+          usesSharedGatewayAuth: false,
+        };
+        params.clearHandshakeTimer();
+        params.advanceHandshakePhase("auth_validated");
+        if (!params.setClient(client)) {
+          params.setHandshakeState("failed");
+          return false;
+        }
+        return true;
       },
-      connId: params.connId,
-      connectionKind: "worker",
-      worker: admission.identity,
-      usesSharedGatewayAuth: false,
-    };
-    params.clearHandshakeTimer();
-    params.advanceHandshakePhase("auth_validated");
-    if (!params.setClient(client)) {
-      params.setHandshakeState("failed");
+    });
+    if (!admission.ok) {
+      if (admission.reason === "claim-rejected") {
+        return;
+      }
+      rejectAdmission(id, admission.reason, undefined, 1008, true);
       return;
     }
     params.setHandshakeState("connected");

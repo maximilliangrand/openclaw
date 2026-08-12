@@ -33,6 +33,7 @@ import { formatForLog, logWs } from "../ws-log.js";
 import { getHealthVersion, incrementPresenceVersion } from "./health-state.js";
 import type { PreauthConnectionBudget } from "./preauth-connection-budget.js";
 import { broadcastPresenceSnapshot } from "./presence-events.js";
+import { takePublicWorkerIngress } from "./public-worker-ingress-context.js";
 import {
   buildHandshakeAuthLogKey,
   HandshakeAuthLogLimiter,
@@ -276,6 +277,7 @@ export function attachGatewayWsConnectionHandler(params: AttachGatewayWsConnecti
     const connId = randomUUID();
     const connectionKind =
       (socket as GatewayIngressWebSocket)[GATEWAY_WS_CONNECTION_KIND_PROPERTY] ?? "gateway";
+    const publicWorkerIngress = takePublicWorkerIngress(socket);
     const connectionPreauthBudget =
       (socket as GatewayIngressWebSocket)[GATEWAY_WS_PREAUTH_BUDGET_PROPERTY] ??
       preauthConnectionBudget;
@@ -695,6 +697,7 @@ export function attachGatewayWsConnectionHandler(params: AttachGatewayWsConnecti
         setLastFrameMeta,
         logGateway,
         logWsControl,
+        publicAdmission: publicWorkerIngress,
       });
       return;
     }
