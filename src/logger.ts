@@ -47,6 +47,7 @@ function logWithSubsystem(params: {
 
 const info = theme.info;
 const warn = theme.warn;
+const success = theme.success;
 const danger = theme.error;
 
 export function logInfo(message: string, runtime: RuntimeEnv = defaultRuntime) {
@@ -68,6 +69,17 @@ export function logWarn(message: string, runtime: RuntimeEnv = defaultRuntime) {
     runtimeFormatter: warn,
     loggerMethod: "warn",
     subsystemMethod: "warn",
+  });
+}
+
+export function logSuccess(message: string, runtime: RuntimeEnv = defaultRuntime) {
+  logWithSubsystem({
+    message,
+    runtime,
+    runtimeMethod: "log",
+    runtimeFormatter: success,
+    loggerMethod: "info",
+    subsystemMethod: "info",
   });
 }
 
