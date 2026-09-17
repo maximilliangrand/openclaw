@@ -1,0 +1,603 @@
+{
+  "schemaVersion": 1,
+  "documents": [
+    {
+      "path": "MEMORY.md",
+      "content": "# Curated memory\n\n## Travel\n\n- For overnight flights, Mira prefers an aisle seat away from the lavatory.\n- During Berlin visits, Mira stays at the Lindenhof Hotel near the east station.\n- The luggage service booking reference is 48392017.\n## Project Atlas\n\n- The Atlas migration owner is Devon Chen; questions about the cutover go to Devon. <!-- project: github.com/example/atlas --> <!-- importance: 7 -->\n- Atlas production cutover is scheduled for 2026-11-08 at 02:00 UTC. <!-- project: github.com/example/atlas --> <!-- importance: 7 -->\n- Atlas staging listens on TCP port 7419. <!-- project: github.com/example/atlas --> <!-- importance: 7 -->\n## Finance\n\n- Invoices from Northstar Hosting map to account 6210 for the synthetic Acorn account.\n- Blue Finch Studio invoices are due forty-five days after their issue date.\n- The bookkeeping export code for Blue Finch Studio is BF-029184.\n## Accessibility\n\n- Sam needs captions enabled for every remote meeting because speech alone is difficult to follow.\n- Sam prefers reduced motion and no autoplaying animations in the dashboard.\n- Use the high-contrast interface theme for Sam during screen sharing.\n## Incident response\n\n- For a stalled Oriole import, pause its scheduler before retrying the failed batch once.\n- If the Oriole import fails twice, escalate to the data platform on-call instead of retrying again.\n- The synthetic Oriole outage incident number is 90715264.\n## Food preferences\n\n- Priya is vegan and does not eat honey.\n- Priya drinks decaffeinated coffee after noon.\n- Priya is allergic to cashews.\n## Release process\n\n- The Juniper release checklist requires a canary deployment followed by a fifteen-minute error-rate check.\n- Taylor is responsible for approving Juniper production releases.\n- The synthetic Juniper rollback reference is release-2037-amber.\n## Support routing\n\n- A customer unable to export their records gets priority two unless data is being lost.\n- The North team covers support from 07:00 to 15:00 UTC on weekdays.\n- Support queue ticket 58273016 belongs to the North team.\n## Short facts\n\n- TZ: UTC.\n- Locale: de-AT.\n- Size: XS.\n## Cedar deadline: 2026-10-19\n- Cedar is coordinated by Ada.\n## Birch status: CANCELLED\n- Do not schedule further Birch work.\n## Warehouse pickup code: 61820473\n- Show the code at reception.\n### Project: github.com/example/beta\n\n<!-- openclaw-memory-promotion:memory:beta -->\n- Beta deployment uses region eu-north-1. <!-- project: github.com/example/beta --> <!-- trigger: Beta deployment --> <!-- importance: 9 -->\n- Alpha deployment uses region us-west-2. <!-- project: github.com/example/alpha --> <!-- trigger: Alpha deployment --> <!-- importance: 4 -->\n",
+      "curatedRoot": true,
+      "originClass": "owner"
+    },
+    {
+      "path": "USER.md",
+      "content": "## Personal preference\n- Replies in German.\n",
+      "curatedRoot": true,
+      "originClass": "owner"
+    },
+    {
+      "path": "memory/standalone.md",
+      "content": "## Fire exit: north stairwell\n",
+      "curatedRoot": false,
+      "originClass": "owner"
+    },
+    {
+      "path": "memory/ordinary.md",
+      "content": "## Retention policy\nThe synthetic archive keeps exports for fourteen days and then removes them.\n",
+      "curatedRoot": false,
+      "originClass": "owner"
+    },
+    {
+      "path": "memory/code.md",
+      "content": "```markdown\n# heading inside a code example\n```\nThe markdown sample is the documented test fixture.\n",
+      "curatedRoot": false,
+      "originClass": "owner"
+    }
+  ],
+  "facts": [
+    {
+      "id": "travel-seat",
+      "path": "MEMORY.md",
+      "startLine": 5,
+      "endLine": 5,
+      "kind": "body"
+    },
+    {
+      "id": "travel-hotel",
+      "path": "MEMORY.md",
+      "startLine": 6,
+      "endLine": 6,
+      "kind": "body"
+    },
+    {
+      "id": "travel-id",
+      "path": "MEMORY.md",
+      "startLine": 7,
+      "endLine": 7,
+      "kind": "body"
+    },
+    {
+      "id": "atlas-owner",
+      "path": "MEMORY.md",
+      "startLine": 10,
+      "endLine": 10,
+      "kind": "body"
+    },
+    {
+      "id": "atlas-date",
+      "path": "MEMORY.md",
+      "startLine": 11,
+      "endLine": 11,
+      "kind": "body"
+    },
+    {
+      "id": "atlas-port",
+      "path": "MEMORY.md",
+      "startLine": 12,
+      "endLine": 12,
+      "kind": "body"
+    },
+    {
+      "id": "finance-map",
+      "path": "MEMORY.md",
+      "startLine": 15,
+      "endLine": 15,
+      "kind": "body"
+    },
+    {
+      "id": "finance-terms",
+      "path": "MEMORY.md",
+      "startLine": 16,
+      "endLine": 16,
+      "kind": "body"
+    },
+    {
+      "id": "finance-code",
+      "path": "MEMORY.md",
+      "startLine": 17,
+      "endLine": 17,
+      "kind": "body"
+    },
+    {
+      "id": "access-captions",
+      "path": "MEMORY.md",
+      "startLine": 20,
+      "endLine": 20,
+      "kind": "body"
+    },
+    {
+      "id": "access-motion",
+      "path": "MEMORY.md",
+      "startLine": 21,
+      "endLine": 21,
+      "kind": "body"
+    },
+    {
+      "id": "access-contrast",
+      "path": "MEMORY.md",
+      "startLine": 22,
+      "endLine": 22,
+      "kind": "body"
+    },
+    {
+      "id": "incident-recovery",
+      "path": "MEMORY.md",
+      "startLine": 25,
+      "endLine": 25,
+      "kind": "body"
+    },
+    {
+      "id": "incident-escalation",
+      "path": "MEMORY.md",
+      "startLine": 26,
+      "endLine": 26,
+      "kind": "body"
+    },
+    {
+      "id": "incident-id",
+      "path": "MEMORY.md",
+      "startLine": 27,
+      "endLine": 27,
+      "kind": "body"
+    },
+    {
+      "id": "food-diet",
+      "path": "MEMORY.md",
+      "startLine": 30,
+      "endLine": 30,
+      "kind": "body"
+    },
+    {
+      "id": "food-drink",
+      "path": "MEMORY.md",
+      "startLine": 31,
+      "endLine": 31,
+      "kind": "body"
+    },
+    {
+      "id": "food-allergy",
+      "path": "MEMORY.md",
+      "startLine": 32,
+      "endLine": 32,
+      "kind": "body"
+    },
+    {
+      "id": "release-check",
+      "path": "MEMORY.md",
+      "startLine": 35,
+      "endLine": 35,
+      "kind": "body"
+    },
+    {
+      "id": "release-owner",
+      "path": "MEMORY.md",
+      "startLine": 36,
+      "endLine": 36,
+      "kind": "body"
+    },
+    {
+      "id": "release-tag",
+      "path": "MEMORY.md",
+      "startLine": 37,
+      "endLine": 37,
+      "kind": "body"
+    },
+    {
+      "id": "support-priority",
+      "path": "MEMORY.md",
+      "startLine": 40,
+      "endLine": 40,
+      "kind": "body"
+    },
+    {
+      "id": "support-hours",
+      "path": "MEMORY.md",
+      "startLine": 41,
+      "endLine": 41,
+      "kind": "body"
+    },
+    {
+      "id": "support-code",
+      "path": "MEMORY.md",
+      "startLine": 42,
+      "endLine": 42,
+      "kind": "body"
+    },
+    {
+      "id": "short-timezone",
+      "path": "MEMORY.md",
+      "startLine": 45,
+      "endLine": 45,
+      "kind": "body"
+    },
+    {
+      "id": "short-language",
+      "path": "MEMORY.md",
+      "startLine": 46,
+      "endLine": 46,
+      "kind": "body"
+    },
+    {
+      "id": "short-size",
+      "path": "MEMORY.md",
+      "startLine": 47,
+      "endLine": 47,
+      "kind": "body"
+    },
+    {
+      "id": "heading-deadline",
+      "path": "MEMORY.md",
+      "startLine": 48,
+      "endLine": 48,
+      "kind": "heading"
+    },
+    {
+      "id": "heading-status",
+      "path": "MEMORY.md",
+      "startLine": 50,
+      "endLine": 50,
+      "kind": "heading"
+    },
+    {
+      "id": "heading-id",
+      "path": "MEMORY.md",
+      "startLine": 52,
+      "endLine": 52,
+      "kind": "heading"
+    },
+    {
+      "id": "beta-region",
+      "path": "MEMORY.md",
+      "startLine": 57,
+      "endLine": 57,
+      "kind": "body"
+    },
+    {
+      "id": "alpha-region",
+      "path": "MEMORY.md",
+      "startLine": 58,
+      "endLine": 58,
+      "kind": "body"
+    },
+    {
+      "id": "user-language",
+      "path": "USER.md",
+      "startLine": 2,
+      "endLine": 2,
+      "kind": "body"
+    },
+    {
+      "id": "standalone-heading",
+      "path": "memory/standalone.md",
+      "startLine": 1,
+      "endLine": 1,
+      "kind": "heading"
+    },
+    {
+      "id": "ordinary-prose",
+      "path": "memory/ordinary.md",
+      "startLine": 1,
+      "endLine": 2,
+      "kind": "body"
+    },
+    {
+      "id": "code-example",
+      "path": "memory/code.md",
+      "startLine": 1,
+      "endLine": 4,
+      "kind": "body"
+    }
+  ],
+  "queries": [
+    {
+      "id": "q-travel-seat",
+      "text": "Which seat should I choose for Mira on a red-eye flight?",
+      "relevantFacts": [
+        "travel-seat"
+      ],
+      "category": "paraphrase"
+    },
+    {
+      "id": "q-travel-hotel",
+      "text": "Where does Mira usually stay in Berlin?",
+      "relevantFacts": [
+        "travel-hotel"
+      ],
+      "category": "fact"
+    },
+    {
+      "id": "q-travel-id",
+      "text": "48392017",
+      "relevantFacts": [
+        "travel-id"
+      ],
+      "category": "numeric"
+    },
+    {
+      "id": "q-atlas-owner",
+      "text": "Who owns the Atlas migration?",
+      "relevantFacts": [
+        "atlas-owner"
+      ],
+      "category": "fact"
+    },
+    {
+      "id": "q-atlas-date",
+      "text": "When is the production switchover for Atlas?",
+      "relevantFacts": [
+        "atlas-date"
+      ],
+      "category": "paraphrase"
+    },
+    {
+      "id": "q-atlas-port",
+      "text": "7419",
+      "relevantFacts": [
+        "atlas-port"
+      ],
+      "category": "numeric"
+    },
+    {
+      "id": "q-finance-map",
+      "text": "Which account should Northstar Hosting invoices use for Acorn?",
+      "relevantFacts": [
+        "finance-map"
+      ],
+      "category": "fact"
+    },
+    {
+      "id": "q-finance-terms",
+      "text": "How long do we have to pay Blue Finch Studio?",
+      "relevantFacts": [
+        "finance-terms"
+      ],
+      "category": "paraphrase"
+    },
+    {
+      "id": "q-finance-code",
+      "text": "BF-029184",
+      "relevantFacts": [
+        "finance-code"
+      ],
+      "category": "identifier"
+    },
+    {
+      "id": "q-access-captions",
+      "text": "What meeting accommodation does Sam need?",
+      "relevantFacts": [
+        "access-captions"
+      ],
+      "category": "paraphrase"
+    },
+    {
+      "id": "q-access-motion",
+      "text": "Which animation preference should we use for Sam?",
+      "relevantFacts": [
+        "access-motion"
+      ],
+      "category": "fact"
+    },
+    {
+      "id": "q-access-contrast",
+      "text": "What theme does Sam want for screen sharing?",
+      "relevantFacts": [
+        "access-contrast"
+      ],
+      "category": "fact"
+    },
+    {
+      "id": "q-incident-recovery",
+      "text": "How should I recover a stuck Oriole import?",
+      "relevantFacts": [
+        "incident-recovery"
+      ],
+      "category": "paraphrase"
+    },
+    {
+      "id": "q-incident-escalation",
+      "text": "Who gets an Oriole import that failed twice?",
+      "relevantFacts": [
+        "incident-escalation"
+      ],
+      "category": "fact"
+    },
+    {
+      "id": "q-incident-id",
+      "text": "90715264",
+      "relevantFacts": [
+        "incident-id"
+      ],
+      "category": "numeric"
+    },
+    {
+      "id": "q-food-diet",
+      "text": "Can I order a honey dessert for Priya?",
+      "relevantFacts": [
+        "food-diet"
+      ],
+      "category": "paraphrase"
+    },
+    {
+      "id": "q-food-drink",
+      "text": "What coffee does Priya want in the afternoon?",
+      "relevantFacts": [
+        "food-drink"
+      ],
+      "category": "paraphrase"
+    },
+    {
+      "id": "q-food-allergy",
+      "text": "Which nut must Priya avoid?",
+      "relevantFacts": [
+        "food-allergy"
+      ],
+      "category": "fact"
+    },
+    {
+      "id": "q-release-check",
+      "text": "What validation follows a Juniper canary deploy?",
+      "relevantFacts": [
+        "release-check"
+      ],
+      "category": "paraphrase"
+    },
+    {
+      "id": "q-release-owner",
+      "text": "Who approves a Juniper release?",
+      "relevantFacts": [
+        "release-owner"
+      ],
+      "category": "fact"
+    },
+    {
+      "id": "q-release-tag",
+      "text": "release-2037-amber",
+      "relevantFacts": [
+        "release-tag"
+      ],
+      "category": "identifier"
+    },
+    {
+      "id": "q-support-priority",
+      "text": "How urgent is a blocked record export without data loss?",
+      "relevantFacts": [
+        "support-priority"
+      ],
+      "category": "paraphrase"
+    },
+    {
+      "id": "q-support-hours",
+      "text": "When is the North support team available?",
+      "relevantFacts": [
+        "support-hours"
+      ],
+      "category": "fact"
+    },
+    {
+      "id": "q-support-code",
+      "text": "58273016",
+      "relevantFacts": [
+        "support-code"
+      ],
+      "category": "numeric"
+    },
+    {
+      "id": "q-short-timezone",
+      "text": "What is the saved timezone?",
+      "relevantFacts": [
+        "short-timezone"
+      ],
+      "category": "short_fact"
+    },
+    {
+      "id": "q-short-language",
+      "text": "What is the saved locale?",
+      "relevantFacts": [
+        "short-language"
+      ],
+      "category": "short_fact"
+    },
+    {
+      "id": "q-short-size",
+      "text": "What clothing size is saved?",
+      "relevantFacts": [
+        "short-size"
+      ],
+      "category": "short_fact"
+    },
+    {
+      "id": "q-heading-deadline",
+      "text": "When is Cedar due?",
+      "relevantFacts": [
+        "heading-deadline"
+      ],
+      "category": "heading_fact"
+    },
+    {
+      "id": "q-heading-status",
+      "text": "What is the status of Birch?",
+      "relevantFacts": [
+        "heading-status"
+      ],
+      "category": "heading_fact"
+    },
+    {
+      "id": "q-heading-id",
+      "text": "61820473",
+      "relevantFacts": [
+        "heading-id"
+      ],
+      "category": "heading_fact"
+    },
+    {
+      "id": "q-beta-region",
+      "text": "Which region hosts Beta deployment?",
+      "relevantFacts": [
+        "beta-region"
+      ],
+      "category": "annotation"
+    },
+    {
+      "id": "q-alpha-region",
+      "text": "Which region hosts Alpha deployment?",
+      "relevantFacts": [
+        "alpha-region"
+      ],
+      "category": "annotation"
+    },
+    {
+      "id": "q-user-language",
+      "text": "In which language should I reply?",
+      "relevantFacts": [
+        "user-language"
+      ],
+      "category": "short_fact"
+    },
+    {
+      "id": "q-standalone-heading",
+      "text": "Where is the fire exit?",
+      "relevantFacts": [
+        "standalone-heading"
+      ],
+      "category": "heading_fact"
+    },
+    {
+      "id": "q-ordinary-prose",
+      "text": "How long does the synthetic archive retain exports?",
+      "relevantFacts": [
+        "ordinary-prose"
+      ],
+      "category": "ordinary"
+    },
+    {
+      "id": "q-code-example",
+      "text": "What is in the documented Markdown fixture?",
+      "relevantFacts": [
+        "code-example"
+      ],
+      "category": "ordinary"
+    },
+    {
+      "id": "q-unanswerable-0",
+      "text": "How do I repair a bicycle chain?",
+      "relevantFacts": [],
+      "category": "unanswerable"
+    },
+    {
+      "id": "q-unanswerable-1",
+      "text": "What is the boiling point of ethanol?",
+      "relevantFacts": [],
+      "category": "unanswerable"
+    },
+    {
+      "id": "q-unanswerable-2",
+      "text": "87261903",
+      "relevantFacts": [],
+      "category": "unanswerable"
+    },
+    {
+      "id": "q-unanswerable-3",
+      "text": "Who composed this piano sonata?",
+      "relevantFacts": [],
+      "category": "unanswerable"
+    }
+  ]
+}

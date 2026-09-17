@@ -1,0 +1,90 @@
+{
+  "runtime": {
+    "ollama": "0.32.9",
+    "node": "26.7.0",
+    "python": "3.9.6",
+    "platform": "Darwin",
+    "architecture": "arm64",
+    "physicalMemoryBytes": 17179869184
+  },
+  "inference": {
+    "api": "Ollama /api/embed",
+    "batchSize": 8,
+    "num_ctx": 2048,
+    "num_thread": 2,
+    "truncate": false,
+    "keep_alive": "1m"
+  },
+  "models": [
+    {
+      "name": "qwen3-embedding:0.6b",
+      "manifestSha256": "ac6da0dfba84a81fdbfbaf330198c33cd77c4cdfc53e8bc50eb581914a15621d",
+      "details": {
+        "format": "gguf",
+        "family": "qwen3",
+        "families": [
+          "qwen3"
+        ],
+        "parameter_size": "595.78M",
+        "quantization_level": "Q8_0"
+      },
+      "dimension": 1024,
+      "blobDigests": [
+        {
+          "mediaType": "application/vnd.docker.container.image.v1+json",
+          "digest": "sha256:9202febed9e2dadac14bca089be90864571336fa9f4375b690a26ed548957fde",
+          "size": 266
+        },
+        {
+          "mediaType": "application/vnd.ollama.image.model",
+          "digest": "sha256:06507c7b42688469c4e7298b0a1e16deff06caf291cf0a5b278c308249c3e439",
+          "size": 639150592
+        }
+      ],
+      "elapsedSeconds": 6.196580171585083,
+      "promptEvalCount": 2208,
+      "completedAt": "2026-09-17T17:42:22Z",
+      "reportedLoadedSizeBytes": 2127382445
+    },
+    {
+      "name": "nomic-embed-text:latest",
+      "manifestSha256": "0a109f422b47e3a30ba2b10eca18548e944e8a23073ee3f3e947efcf3c45e59f",
+      "details": {
+        "format": "gguf",
+        "family": "nomic-bert",
+        "families": [
+          "nomic-bert"
+        ],
+        "parameter_size": "137M",
+        "quantization_level": "F16"
+      },
+      "dimension": 768,
+      "blobDigests": [
+        {
+          "mediaType": "application/vnd.docker.container.image.v1+json",
+          "digest": "sha256:31df23ea7daa448f9ccdbbcecce6c14689c8552222b80defd3830707c0139d4f",
+          "size": 420
+        },
+        {
+          "mediaType": "application/vnd.ollama.image.model",
+          "digest": "sha256:970aa74c0a90ef7482477cf803618e776e173c007bf957f635f1015bfcfef0e6",
+          "size": 274290656
+        },
+        {
+          "mediaType": "application/vnd.ollama.image.license",
+          "digest": "sha256:c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+          "size": 11357
+        },
+        {
+          "mediaType": "application/vnd.ollama.image.params",
+          "digest": "sha256:ce4a164fc04605703b485251fe9f1a181688ba0eb6badb80cc6335c0de17ca0d",
+          "size": 17
+        }
+      ],
+      "elapsedSeconds": 1.358086109161377,
+      "promptEvalCount": 1462,
+      "completedAt": "2026-09-17T17:43:23Z"
+    }
+  ],
+  "resourceNotes": "Qwen required a 639150592-byte download. Its newly downloaded weights were removed after inference. Cached public Nomic weights were read through links in an isolated model store. The owned server on 127.0.0.1:11439 was stopped. Existing Ollama configuration and private memory were not changed or loaded. Elapsed timings include requests/load but exclude download; not a throughput benchmark or measured peak RSS."
+}

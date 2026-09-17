@@ -1,0 +1,98 @@
+{
+  "sourceSha": "a5693d75209158c691badb66f4408a00a1ff89dc",
+  "corpusSha256": "5e3a68cb2b51f88e659e3730358a5e8c99aadc005e350b407b915f2d0a37f5d1",
+  "baselineChunks": 51,
+  "experimentChunks": 36,
+  "removed": [
+    {
+      "id": "MEMORY.md:1-2",
+      "text": "# Curated memory\n",
+      "relevantFacts": []
+    },
+    {
+      "id": "MEMORY.md:3-4",
+      "text": "## Travel\n",
+      "relevantFacts": []
+    },
+    {
+      "id": "MEMORY.md:8-9",
+      "text": "## Project Atlas\n",
+      "relevantFacts": []
+    },
+    {
+      "id": "MEMORY.md:13-14",
+      "text": "## Finance\n",
+      "relevantFacts": []
+    },
+    {
+      "id": "MEMORY.md:18-19",
+      "text": "## Accessibility\n",
+      "relevantFacts": []
+    },
+    {
+      "id": "MEMORY.md:23-24",
+      "text": "## Incident response\n",
+      "relevantFacts": []
+    },
+    {
+      "id": "MEMORY.md:28-29",
+      "text": "## Food preferences\n",
+      "relevantFacts": []
+    },
+    {
+      "id": "MEMORY.md:33-34",
+      "text": "## Release process\n",
+      "relevantFacts": []
+    },
+    {
+      "id": "MEMORY.md:38-39",
+      "text": "## Support routing\n",
+      "relevantFacts": []
+    },
+    {
+      "id": "MEMORY.md:43-44",
+      "text": "## Short facts\n",
+      "relevantFacts": []
+    },
+    {
+      "id": "MEMORY.md:48-48",
+      "text": "## Cedar deadline: 2026-10-19",
+      "relevantFacts": [
+        "heading-deadline"
+      ]
+    },
+    {
+      "id": "MEMORY.md:50-50",
+      "text": "## Birch status: CANCELLED",
+      "relevantFacts": [
+        "heading-status"
+      ]
+    },
+    {
+      "id": "MEMORY.md:52-52",
+      "text": "## Warehouse pickup code: 61820473",
+      "relevantFacts": [
+        "heading-id"
+      ]
+    },
+    {
+      "id": "USER.md:1-1",
+      "text": "## Personal preference",
+      "relevantFacts": []
+    },
+    {
+      "id": "memory/standalone.md:1-2",
+      "text": "## Fire exit: north stairwell\n",
+      "relevantFacts": [
+        "standalone-heading"
+      ]
+    }
+  ],
+  "retainedExactMatch": true,
+  "bodyFactsPreserved": 32,
+  "projectTriggerImportancePreserved": true,
+  "provenancePreserved": true,
+  "longEntryFragmentCount": 35,
+  "sourceLineRemapPreserved": true,
+  "limits": "Assertions cover supplied synthetic fixtures and unchanged retained objects. They do not prove semantic policy safety; deliberately meaningful heading-only facts are removed."
+}

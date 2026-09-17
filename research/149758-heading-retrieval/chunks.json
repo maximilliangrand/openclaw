@@ -1,0 +1,2101 @@
+{
+  "baseline": [
+    {
+      "id": "MEMORY.md:1-2",
+      "path": "MEMORY.md",
+      "startLine": 1,
+      "endLine": 2,
+      "text": "# Curated memory\n",
+      "hash": "e851889f4d46fa62eb44793053cf7b40c752eb39e4b3b0d23ddd9de65a3efbcb",
+      "embeddingInput": {
+        "text": "# Curated memory\n"
+      },
+      "provenance": {
+        "originClass": "owner",
+        "sessionKind": "unknown",
+        "observedAt": 1700000000000
+      },
+      "importance": null,
+      "triggers": null,
+      "projectKey": null,
+      "headingOnly": true,
+      "relevantFacts": []
+    },
+    {
+      "id": "MEMORY.md:3-4",
+      "path": "MEMORY.md",
+      "startLine": 3,
+      "endLine": 4,
+      "text": "## Travel\n",
+      "hash": "e3270d1930df9f5ded979f16955ae5ec25a59689189de8815b7e17157e5bfb0e",
+      "embeddingInput": {
+        "text": "## Travel\n"
+      },
+      "provenance": {
+        "originClass": "owner",
+        "sessionKind": "unknown",
+        "observedAt": 1700000000000
+      },
+      "importance": null,
+      "triggers": null,
+      "projectKey": null,
+      "headingOnly": true,
+      "relevantFacts": []
+    },
+    {
+      "id": "MEMORY.md:5-5",
+      "path": "MEMORY.md",
+      "startLine": 5,
+      "endLine": 5,
+      "text": "- For overnight flights, Mira prefers an aisle seat away from the lavatory.",
+      "hash": "0da7e0d1b8e02883e19b8399f8b47c595bac00a7bd3ea2dad4fa8eba6376be6c",
+      "embeddingInput": {
+        "text": "- For overnight flights, Mira prefers an aisle seat away from the lavatory."
+      },
+      "entryStartLine": 5,
+      "entryEndLine": 5,
+      "provenance": {
+        "originClass": "owner",
+        "sessionKind": "unknown",
+        "observedAt": 1700000000000
+      },
+      "importance": null,
+      "triggers": null,
+      "projectKey": null,
+      "headingOnly": false,
+      "relevantFacts": [
+        "travel-seat"
+      ]
+    },
+    {
+      "id": "MEMORY.md:6-6",
+      "path": "MEMORY.md",
+      "startLine": 6,
+      "endLine": 6,
+      "text": "- During Berlin visits, Mira stays at the Lindenhof Hotel near the east station.",
+      "hash": "5d8ce1cbc71d67c616f81ea4c9ab121c8fb9dc7058b79a70f31ccfd70837b273",
+      "embeddingInput": {
+        "text": "- During Berlin visits, Mira stays at the Lindenhof Hotel near the east station."
+      },
+      "entryStartLine": 6,
+      "entryEndLine": 6,
+      "provenance": {
+        "originClass": "owner",
+        "sessionKind": "unknown",
+        "observedAt": 1700000000000
+      },
+      "importance": null,
+      "triggers": null,
+      "projectKey": null,
+      "headingOnly": false,
+      "relevantFacts": [
+        "travel-hotel"
+      ]
+    },
+    {
+      "id": "MEMORY.md:7-7",
+      "path": "MEMORY.md",
+      "startLine": 7,
+      "endLine": 7,
+      "text": "- The luggage service booking reference is 48392017.",
+      "hash": "eb5680694db9efaf8b437222ff31e3334ca5114adb51b1ad780a60d3d2c9335e",
+      "embeddingInput": {
+        "text": "- The luggage service booking reference is 48392017."
+      },
+      "entryStartLine": 7,
+      "entryEndLine": 7,
+      "provenance": {
+        "originClass": "owner",
+        "sessionKind": "unknown",
+        "observedAt": 1700000000000
+      },
+      "importance": null,
+      "triggers": null,
+      "projectKey": null,
+      "headingOnly": false,
+      "relevantFacts": [
+        "travel-id"
+      ]
+    },
+    {
+      "id": "MEMORY.md:8-9",
+      "path": "MEMORY.md",
+      "startLine": 8,
+      "endLine": 9,
+      "text": "## Project Atlas\n",
+      "hash": "b3eb50ecb14794ce47957685d9ce51a969c0132a138988fcf02134384304ec5e",
+      "embeddingInput": {
+        "text": "## Project Atlas\n"
+      },
+      "provenance": {
+        "originClass": "owner",
+        "sessionKind": "unknown",
+        "observedAt": 1700000000000
+      },
+      "importance": null,
+      "triggers": null,
+      "projectKey": null,
+      "headingOnly": true,
+      "relevantFacts": []
+    },
+    {
+      "id": "MEMORY.md:10-10",
+      "path": "MEMORY.md",
+      "startLine": 10,
+      "endLine": 10,
+      "text": "- The Atlas migration owner is Devon Chen; questions about the cutover go to Devon.",
+      "hash": "5dccc83aef818a36c398bc05f8019f3d102465a21c6464a9e2c98af6ae46db14",
+      "embeddingInput": {
+        "text": "- The Atlas migration owner is Devon Chen; questions about the cutover go to Devon."
+      },
+      "entryStartLine": 10,
+      "entryEndLine": 10,
+      "provenance": {
+        "originClass": "owner",
+        "sessionKind": "unknown",
+        "observedAt": 1700000000000
+      },
+      "importance": 7,
+      "triggers": null,
+      "projectKey": "github.com/example/atlas",
+      "headingOnly": false,
+      "relevantFacts": [
+        "atlas-owner"
+      ]
+    },
+    {
+      "id": "MEMORY.md:11-11",
+      "path": "MEMORY.md",
+      "startLine": 11,
+      "endLine": 11,
+      "text": "- Atlas production cutover is scheduled for 2026-11-08 at 02:00 UTC.",
+      "hash": "8a93c77dd509e073b8da2edff426d4720fafd91a32c6840ff3bd68e6f0b41d3d",
+      "embeddingInput": {
+        "text": "- Atlas production cutover is scheduled for 2026-11-08 at 02:00 UTC."
+      },
+      "entryStartLine": 11,
+      "entryEndLine": 11,
+      "provenance": {
+        "originClass": "owner",
+        "sessionKind": "unknown",
+        "observedAt": 1700000000000
+      },
+      "importance": 7,
+      "triggers": null,
+      "projectKey": "github.com/example/atlas",
+      "headingOnly": false,
+      "relevantFacts": [
+        "atlas-date"
+      ]
+    },
+    {
+      "id": "MEMORY.md:12-12",
+      "path": "MEMORY.md",
+      "startLine": 12,
+      "endLine": 12,
+      "text": "- Atlas staging listens on TCP port 7419.",
+      "hash": "ded22652ebd12d765e6f601673970aee25d9030bd736f5d1020e0080fc1915c8",
+      "embeddingInput": {
+        "text": "- Atlas staging listens on TCP port 7419."
+      },
+      "entryStartLine": 12,
+      "entryEndLine": 12,
+      "provenance": {
+        "originClass": "owner",
+        "sessionKind": "unknown",
+        "observedAt": 1700000000000
+      },
+      "importance": 7,
+      "triggers": null,
+      "projectKey": "github.com/example/atlas",
+      "headingOnly": false,
+      "relevantFacts": [
+        "atlas-port"
+      ]
+    },
+    {
+      "id": "MEMORY.md:13-14",
+      "path": "MEMORY.md",
+      "startLine": 13,
+      "endLine": 14,
+      "text": "## Finance\n",
+      "hash": "e09925e6b0840443ac1d252f22226a08db4aaef7663220f26153304def02aa52",
+      "embeddingInput": {
+        "text": "## Finance\n"
+      },
+      "provenance": {
+        "originClass": "owner",
+        "sessionKind": "unknown",
+        "observedAt": 1700000000000
+      },
+      "importance": null,
+      "triggers": null,
+      "projectKey": null,
+      "headingOnly": true,
+      "relevantFacts": []
+    },
+    {
+      "id": "MEMORY.md:15-15",
+      "path": "MEMORY.md",
+      "startLine": 15,
+      "endLine": 15,
+      "text": "- Invoices from Northstar Hosting map to account 6210 for the synthetic Acorn account.",
+      "hash": "912cb2a63fa0817b0c715067957b0c8141f2a8ce36188cebfeb7c16ce696f334",
+      "embeddingInput": {
+        "text": "- Invoices from Northstar Hosting map to account 6210 for the synthetic Acorn account."
+      },
+      "entryStartLine": 15,
+      "entryEndLine": 15,
+      "provenance": {
+        "originClass": "owner",
+        "sessionKind": "unknown",
+        "observedAt": 1700000000000
+      },
+      "importance": null,
+      "triggers": null,
+      "projectKey": null,
+      "headingOnly": false,
+      "relevantFacts": [
+        "finance-map"
+      ]
+    },
+    {
+      "id": "MEMORY.md:16-16",
+      "path": "MEMORY.md",
+      "startLine": 16,
+      "endLine": 16,
+      "text": "- Blue Finch Studio invoices are due forty-five days after their issue date.",
+      "hash": "1819acd22aa0bbadd95a983c9d657708fde14660038ce3b9ce8329eb42d18eee",
+      "embeddingInput": {
+        "text": "- Blue Finch Studio invoices are due forty-five days after their issue date."
+      },
+      "entryStartLine": 16,
+      "entryEndLine": 16,
+      "provenance": {
+        "originClass": "owner",
+        "sessionKind": "unknown",
+        "observedAt": 1700000000000
+      },
+      "importance": null,
+      "triggers": null,
+      "projectKey": null,
+      "headingOnly": false,
+      "relevantFacts": [
+        "finance-terms"
+      ]
+    },
+    {
+      "id": "MEMORY.md:17-17",
+      "path": "MEMORY.md",
+      "startLine": 17,
+      "endLine": 17,
+      "text": "- The bookkeeping export code for Blue Finch Studio is BF-029184.",
+      "hash": "e4500ede4bc15223e498138fa533a04eb84482206b825e34029beba38e9e1e3f",
+      "embeddingInput": {
+        "text": "- The bookkeeping export code for Blue Finch Studio is BF-029184."
+      },
+      "entryStartLine": 17,
+      "entryEndLine": 17,
+      "provenance": {
+        "originClass": "owner",
+        "sessionKind": "unknown",
+        "observedAt": 1700000000000
+      },
+      "importance": null,
+      "triggers": null,
+      "projectKey": null,
+      "headingOnly": false,
+      "relevantFacts": [
+        "finance-code"
+      ]
+    },
+    {
+      "id": "MEMORY.md:18-19",
+      "path": "MEMORY.md",
+      "startLine": 18,
+      "endLine": 19,
+      "text": "## Accessibility\n",
+      "hash": "7a235f3b6064dcf103491d494aa140d10d9eac8918ae5b95ced1ffde5f806b62",
+      "embeddingInput": {
+        "text": "## Accessibility\n"
+      },
+      "provenance": {
+        "originClass": "owner",
+        "sessionKind": "unknown",
+        "observedAt": 1700000000000
+      },
+      "importance": null,
+      "triggers": null,
+      "projectKey": null,
+      "headingOnly": true,
+      "relevantFacts": []
+    },
+    {
+      "id": "MEMORY.md:20-20",
+      "path": "MEMORY.md",
+      "startLine": 20,
+      "endLine": 20,
+      "text": "- Sam needs captions enabled for every remote meeting because speech alone is difficult to follow.",
+      "hash": "869bcf5bf46b503ce735aac448728b2f32e4d43d963b889c804da36941de2bc4",
+      "embeddingInput": {
+        "text": "- Sam needs captions enabled for every remote meeting because speech alone is difficult to follow."
+      },
+      "entryStartLine": 20,
+      "entryEndLine": 20,
+      "provenance": {
+        "originClass": "owner",
+        "sessionKind": "unknown",
+        "observedAt": 1700000000000
+      },
+      "importance": null,
+      "triggers": null,
+      "projectKey": null,
+      "headingOnly": false,
+      "relevantFacts": [
+        "access-captions"
+      ]
+    },
+    {
+      "id": "MEMORY.md:21-21",
+      "path": "MEMORY.md",
+      "startLine": 21,
+      "endLine": 21,
+      "text": "- Sam prefers reduced motion and no autoplaying animations in the dashboard.",
+      "hash": "b204acb3e071bf9122428dc832e0b7336d41440ac37f3ab9114c4cc45449818e",
+      "embeddingInput": {
+        "text": "- Sam prefers reduced motion and no autoplaying animations in the dashboard."
+      },
+      "entryStartLine": 21,
+      "entryEndLine": 21,
+      "provenance": {
+        "originClass": "owner",
+        "sessionKind": "unknown",
+        "observedAt": 1700000000000
+      },
+      "importance": null,
+      "triggers": null,
+      "projectKey": null,
+      "headingOnly": false,
+      "relevantFacts": [
+        "access-motion"
+      ]
+    },
+    {
+      "id": "MEMORY.md:22-22",
+      "path": "MEMORY.md",
+      "startLine": 22,
+      "endLine": 22,
+      "text": "- Use the high-contrast interface theme for Sam during screen sharing.",
+      "hash": "d8095a8c582bcd542793dcc9c4563b1c58676f7f927a5e9faac59dac957f2ef2",
+      "embeddingInput": {
+        "text": "- Use the high-contrast interface theme for Sam during screen sharing."
+      },
+      "entryStartLine": 22,
+      "entryEndLine": 22,
+      "provenance": {
+        "originClass": "owner",
+        "sessionKind": "unknown",
+        "observedAt": 1700000000000
+      },
+      "importance": null,
+      "triggers": null,
+      "projectKey": null,
+      "headingOnly": false,
+      "relevantFacts": [
+        "access-contrast"
+      ]
+    },
+    {
+      "id": "MEMORY.md:23-24",
+      "path": "MEMORY.md",
+      "startLine": 23,
+      "endLine": 24,
+      "text": "## Incident response\n",
+      "hash": "f86769d500595564c278eb7d353bee8b22d3c7378ba0f5dcf9c2211624470e40",
+      "embeddingInput": {
+        "text": "## Incident response\n"
+      },
+      "provenance": {
+        "originClass": "owner",
+        "sessionKind": "unknown",
+        "observedAt": 1700000000000
+      },
+      "importance": null,
+      "triggers": null,
+      "projectKey": null,
+      "headingOnly": true,
+      "relevantFacts": []
+    },
+    {
+      "id": "MEMORY.md:25-25",
+      "path": "MEMORY.md",
+      "startLine": 25,
+      "endLine": 25,
+      "text": "- For a stalled Oriole import, pause its scheduler before retrying the failed batch once.",
+      "hash": "0eabd850ac3c9147003b55a6b862fd86bf84ee6af7b9007862626ce9fc1fd8fb",
+      "embeddingInput": {
+        "text": "- For a stalled Oriole import, pause its scheduler before retrying the failed batch once."
+      },
+      "entryStartLine": 25,
+      "entryEndLine": 25,
+      "provenance": {
+        "originClass": "owner",
+        "sessionKind": "unknown",
+        "observedAt": 1700000000000
+      },
+      "importance": null,
+      "triggers": null,
+      "projectKey": null,
+      "headingOnly": false,
+      "relevantFacts": [
+        "incident-recovery"
+      ]
+    },
+    {
+      "id": "MEMORY.md:26-26",
+      "path": "MEMORY.md",
+      "startLine": 26,
+      "endLine": 26,
+      "text": "- If the Oriole import fails twice, escalate to the data platform on-call instead of retrying again.",
+      "hash": "d79e51436c00a64e60161f5c871a9aa64261097114fc6d3136ac256b40db0ba7",
+      "embeddingInput": {
+        "text": "- If the Oriole import fails twice, escalate to the data platform on-call instead of retrying again."
+      },
+      "entryStartLine": 26,
+      "entryEndLine": 26,
+      "provenance": {
+        "originClass": "owner",
+        "sessionKind": "unknown",
+        "observedAt": 1700000000000
+      },
+      "importance": null,
+      "triggers": null,
+      "projectKey": null,
+      "headingOnly": false,
+      "relevantFacts": [
+        "incident-escalation"
+      ]
+    },
+    {
+      "id": "MEMORY.md:27-27",
+      "path": "MEMORY.md",
+      "startLine": 27,
+      "endLine": 27,
+      "text": "- The synthetic Oriole outage incident number is 90715264.",
+      "hash": "6776f3c01933466efa0261697b8485a5cbeb9ad8b37d6374caa9a2a786f965ab",
+      "embeddingInput": {
+        "text": "- The synthetic Oriole outage incident number is 90715264."
+      },
+      "entryStartLine": 27,
+      "entryEndLine": 27,
+      "provenance": {
+        "originClass": "owner",
+        "sessionKind": "unknown",
+        "observedAt": 1700000000000
+      },
+      "importance": null,
+      "triggers": null,
+      "projectKey": null,
+      "headingOnly": false,
+      "relevantFacts": [
+        "incident-id"
+      ]
+    },
+    {
+      "id": "MEMORY.md:28-29",
+      "path": "MEMORY.md",
+      "startLine": 28,
+      "endLine": 29,
+      "text": "## Food preferences\n",
+      "hash": "3874cb2177e0f5071803c5e68e15672863ff02414d02fe1adcddf349cb7ed7f0",
+      "embeddingInput": {
+        "text": "## Food preferences\n"
+      },
+      "provenance": {
+        "originClass": "owner",
+        "sessionKind": "unknown",
+        "observedAt": 1700000000000
+      },
+      "importance": null,
+      "triggers": null,
+      "projectKey": null,
+      "headingOnly": true,
+      "relevantFacts": []
+    },
+    {
+      "id": "MEMORY.md:30-30",
+      "path": "MEMORY.md",
+      "startLine": 30,
+      "endLine": 30,
+      "text": "- Priya is vegan and does not eat honey.",
+      "hash": "f6949f6169560102cd04514530abf7b9c2a1a4e71f86c77301419734c2f655be",
+      "embeddingInput": {
+        "text": "- Priya is vegan and does not eat honey."
+      },
+      "entryStartLine": 30,
+      "entryEndLine": 30,
+      "provenance": {
+        "originClass": "owner",
+        "sessionKind": "unknown",
+        "observedAt": 1700000000000
+      },
+      "importance": null,
+      "triggers": null,
+      "projectKey": null,
+      "headingOnly": false,
+      "relevantFacts": [
+        "food-diet"
+      ]
+    },
+    {
+      "id": "MEMORY.md:31-31",
+      "path": "MEMORY.md",
+      "startLine": 31,
+      "endLine": 31,
+      "text": "- Priya drinks decaffeinated coffee after noon.",
+      "hash": "f4818549efaa9f8c261df2ee7bbd65254f31165e104a6cbeae9886086a89960e",
+      "embeddingInput": {
+        "text": "- Priya drinks decaffeinated coffee after noon."
+      },
+      "entryStartLine": 31,
+      "entryEndLine": 31,
+      "provenance": {
+        "originClass": "owner",
+        "sessionKind": "unknown",
+        "observedAt": 1700000000000
+      },
+      "importance": null,
+      "triggers": null,
+      "projectKey": null,
+      "headingOnly": false,
+      "relevantFacts": [
+        "food-drink"
+      ]
+    },
+    {
+      "id": "MEMORY.md:32-32",
+      "path": "MEMORY.md",
+      "startLine": 32,
+      "endLine": 32,
+      "text": "- Priya is allergic to cashews.",
+      "hash": "9e549e666fea5da50e00f201d63b6f35f27e4866117d3294b4497637b62afac2",
+      "embeddingInput": {
+        "text": "- Priya is allergic to cashews."
+      },
+      "entryStartLine": 32,
+      "entryEndLine": 32,
+      "provenance": {
+        "originClass": "owner",
+        "sessionKind": "unknown",
+        "observedAt": 1700000000000
+      },
+      "importance": null,
+      "triggers": null,
+      "projectKey": null,
+      "headingOnly": false,
+      "relevantFacts": [
+        "food-allergy"
+      ]
+    },
+    {
+      "id": "MEMORY.md:33-34",
+      "path": "MEMORY.md",
+      "startLine": 33,
+      "endLine": 34,
+      "text": "## Release process\n",
+      "hash": "c878feae4541917b5ab78f7e785813868dc1d532f841f118f384e0a0af1d5f70",
+      "embeddingInput": {
+        "text": "## Release process\n"
+      },
+      "provenance": {
+        "originClass": "owner",
+        "sessionKind": "unknown",
+        "observedAt": 1700000000000
+      },
+      "importance": null,
+      "triggers": null,
+      "projectKey": null,
+      "headingOnly": true,
+      "relevantFacts": []
+    },
+    {
+      "id": "MEMORY.md:35-35",
+      "path": "MEMORY.md",
+      "startLine": 35,
+      "endLine": 35,
+      "text": "- The Juniper release checklist requires a canary deployment followed by a fifteen-minute error-rate check.",
+      "hash": "283032fa2818b55c9a83db307ac65487c554426c8af8b5bb6a9ac669cd074bcc",
+      "embeddingInput": {
+        "text": "- The Juniper release checklist requires a canary deployment followed by a fifteen-minute error-rate check."
+      },
+      "entryStartLine": 35,
+      "entryEndLine": 35,
+      "provenance": {
+        "originClass": "owner",
+        "sessionKind": "unknown",
+        "observedAt": 1700000000000
+      },
+      "importance": null,
+      "triggers": null,
+      "projectKey": null,
+      "headingOnly": false,
+      "relevantFacts": [
+        "release-check"
+      ]
+    },
+    {
+      "id": "MEMORY.md:36-36",
+      "path": "MEMORY.md",
+      "startLine": 36,
+      "endLine": 36,
+      "text": "- Taylor is responsible for approving Juniper production releases.",
+      "hash": "62230ccbb1122f23ce9ae998cc8f838c01ebba2d7fce6659549559a57fd550c0",
+      "embeddingInput": {
+        "text": "- Taylor is responsible for approving Juniper production releases."
+      },
+      "entryStartLine": 36,
+      "entryEndLine": 36,
+      "provenance": {
+        "originClass": "owner",
+        "sessionKind": "unknown",
+        "observedAt": 1700000000000
+      },
+      "importance": null,
+      "triggers": null,
+      "projectKey": null,
+      "headingOnly": false,
+      "relevantFacts": [
+        "release-owner"
+      ]
+    },
+    {
+      "id": "MEMORY.md:37-37",
+      "path": "MEMORY.md",
+      "startLine": 37,
+      "endLine": 37,
+      "text": "- The synthetic Juniper rollback reference is release-2037-amber.",
+      "hash": "84b8f5ba06b7cf8cf18409c4682fc52360a09735e82178ddbadec31c8b3910ce",
+      "embeddingInput": {
+        "text": "- The synthetic Juniper rollback reference is release-2037-amber."
+      },
+      "entryStartLine": 37,
+      "entryEndLine": 37,
+      "provenance": {
+        "originClass": "owner",
+        "sessionKind": "unknown",
+        "observedAt": 1700000000000
+      },
+      "importance": null,
+      "triggers": null,
+      "projectKey": null,
+      "headingOnly": false,
+      "relevantFacts": [
+        "release-tag"
+      ]
+    },
+    {
+      "id": "MEMORY.md:38-39",
+      "path": "MEMORY.md",
+      "startLine": 38,
+      "endLine": 39,
+      "text": "## Support routing\n",
+      "hash": "49954e3acd2e3454c9824e03be79175a335b71d3f9ea0ec26fd3c79f262468f5",
+      "embeddingInput": {
+        "text": "## Support routing\n"
+      },
+      "provenance": {
+        "originClass": "owner",
+        "sessionKind": "unknown",
+        "observedAt": 1700000000000
+      },
+      "importance": null,
+      "triggers": null,
+      "projectKey": null,
+      "headingOnly": true,
+      "relevantFacts": []
+    },
+    {
+      "id": "MEMORY.md:40-40",
+      "path": "MEMORY.md",
+      "startLine": 40,
+      "endLine": 40,
+      "text": "- A customer unable to export their records gets priority two unless data is being lost.",
+      "hash": "821ba2a457e35f24f61ebdff0f0a8bf48917d56bf56bfad2cac65a4bb032e80f",
+      "embeddingInput": {
+        "text": "- A customer unable to export their records gets priority two unless data is being lost."
+      },
+      "entryStartLine": 40,
+      "entryEndLine": 40,
+      "provenance": {
+        "originClass": "owner",
+        "sessionKind": "unknown",
+        "observedAt": 1700000000000
+      },
+      "importance": null,
+      "triggers": null,
+      "projectKey": null,
+      "headingOnly": false,
+      "relevantFacts": [
+        "support-priority"
+      ]
+    },
+    {
+      "id": "MEMORY.md:41-41",
+      "path": "MEMORY.md",
+      "startLine": 41,
+      "endLine": 41,
+      "text": "- The North team covers support from 07:00 to 15:00 UTC on weekdays.",
+      "hash": "bcde1fb556cf563fa4f63172fbb222e2802c3bd44fd8cc1c012428ae0a72907b",
+      "embeddingInput": {
+        "text": "- The North team covers support from 07:00 to 15:00 UTC on weekdays."
+      },
+      "entryStartLine": 41,
+      "entryEndLine": 41,
+      "provenance": {
+        "originClass": "owner",
+        "sessionKind": "unknown",
+        "observedAt": 1700000000000
+      },
+      "importance": null,
+      "triggers": null,
+      "projectKey": null,
+      "headingOnly": false,
+      "relevantFacts": [
+        "support-hours"
+      ]
+    },
+    {
+      "id": "MEMORY.md:42-42",
+      "path": "MEMORY.md",
+      "startLine": 42,
+      "endLine": 42,
+      "text": "- Support queue ticket 58273016 belongs to the North team.",
+      "hash": "2de2a9e0aad31f200d2b742c12801d1c56a61c36742e8f81966c206fababe410",
+      "embeddingInput": {
+        "text": "- Support queue ticket 58273016 belongs to the North team."
+      },
+      "entryStartLine": 42,
+      "entryEndLine": 42,
+      "provenance": {
+        "originClass": "owner",
+        "sessionKind": "unknown",
+        "observedAt": 1700000000000
+      },
+      "importance": null,
+      "triggers": null,
+      "projectKey": null,
+      "headingOnly": false,
+      "relevantFacts": [
+        "support-code"
+      ]
+    },
+    {
+      "id": "MEMORY.md:43-44",
+      "path": "MEMORY.md",
+      "startLine": 43,
+      "endLine": 44,
+      "text": "## Short facts\n",
+      "hash": "8dc7846fa4bb85c27e8c4fb56851ec21c8754d2fc4f7fa3ad1eb6d0c54f9b434",
+      "embeddingInput": {
+        "text": "## Short facts\n"
+      },
+      "provenance": {
+        "originClass": "owner",
+        "sessionKind": "unknown",
+        "observedAt": 1700000000000
+      },
+      "importance": null,
+      "triggers": null,
+      "projectKey": null,
+      "headingOnly": true,
+      "relevantFacts": []
+    },
+    {
+      "id": "MEMORY.md:45-45",
+      "path": "MEMORY.md",
+      "startLine": 45,
+      "endLine": 45,
+      "text": "- TZ: UTC.",
+      "hash": "861f09af172b28a4c667320321889c571707a636dceefaf5ef06bc1f3b2cb67a",
+      "embeddingInput": {
+        "text": "- TZ: UTC."
+      },
+      "entryStartLine": 45,
+      "entryEndLine": 45,
+      "provenance": {
+        "originClass": "owner",
+        "sessionKind": "unknown",
+        "observedAt": 1700000000000
+      },
+      "importance": null,
+      "triggers": null,
+      "projectKey": null,
+      "headingOnly": false,
+      "relevantFacts": [
+        "short-timezone"
+      ]
+    },
+    {
+      "id": "MEMORY.md:46-46",
+      "path": "MEMORY.md",
+      "startLine": 46,
+      "endLine": 46,
+      "text": "- Locale: de-AT.",
+      "hash": "4f8cf653d4bf646948c07eaeb8c10b3b9f83bf0dc4cb8c7e5596cc187658e49a",
+      "embeddingInput": {
+        "text": "- Locale: de-AT."
+      },
+      "entryStartLine": 46,
+      "entryEndLine": 46,
+      "provenance": {
+        "originClass": "owner",
+        "sessionKind": "unknown",
+        "observedAt": 1700000000000
+      },
+      "importance": null,
+      "triggers": null,
+      "projectKey": null,
+      "headingOnly": false,
+      "relevantFacts": [
+        "short-language"
+      ]
+    },
+    {
+      "id": "MEMORY.md:47-47",
+      "path": "MEMORY.md",
+      "startLine": 47,
+      "endLine": 47,
+      "text": "- Size: XS.",
+      "hash": "16fcaba06e536c2aca38683cb19ed8914d9c17d5a19046e7f87457454f66b42e",
+      "embeddingInput": {
+        "text": "- Size: XS."
+      },
+      "entryStartLine": 47,
+      "entryEndLine": 47,
+      "provenance": {
+        "originClass": "owner",
+        "sessionKind": "unknown",
+        "observedAt": 1700000000000
+      },
+      "importance": null,
+      "triggers": null,
+      "projectKey": null,
+      "headingOnly": false,
+      "relevantFacts": [
+        "short-size"
+      ]
+    },
+    {
+      "id": "MEMORY.md:48-48",
+      "path": "MEMORY.md",
+      "startLine": 48,
+      "endLine": 48,
+      "text": "## Cedar deadline: 2026-10-19",
+      "hash": "4e222bf2d408df551f0de2a24774124aaa8b502bddd4eee341e801ecc5db46b2",
+      "embeddingInput": {
+        "text": "## Cedar deadline: 2026-10-19"
+      },
+      "provenance": {
+        "originClass": "owner",
+        "sessionKind": "unknown",
+        "observedAt": 1700000000000
+      },
+      "importance": null,
+      "triggers": null,
+      "projectKey": null,
+      "headingOnly": true,
+      "relevantFacts": [
+        "heading-deadline"
+      ]
+    },
+    {
+      "id": "MEMORY.md:49-49",
+      "path": "MEMORY.md",
+      "startLine": 49,
+      "endLine": 49,
+      "text": "- Cedar is coordinated by Ada.",
+      "hash": "be3ab11c3b6ddea5836a20f722c62a12c838187370ee42786fd573c1ae06cfab",
+      "embeddingInput": {
+        "text": "- Cedar is coordinated by Ada."
+      },
+      "entryStartLine": 49,
+      "entryEndLine": 49,
+      "provenance": {
+        "originClass": "owner",
+        "sessionKind": "unknown",
+        "observedAt": 1700000000000
+      },
+      "importance": null,
+      "triggers": null,
+      "projectKey": null,
+      "headingOnly": false,
+      "relevantFacts": []
+    },
+    {
+      "id": "MEMORY.md:50-50",
+      "path": "MEMORY.md",
+      "startLine": 50,
+      "endLine": 50,
+      "text": "## Birch status: CANCELLED",
+      "hash": "0931f5dd966edeec079dd5b31c33475fa4389d4b49a68923a1536c0ae730a2a8",
+      "embeddingInput": {
+        "text": "## Birch status: CANCELLED"
+      },
+      "provenance": {
+        "originClass": "owner",
+        "sessionKind": "unknown",
+        "observedAt": 1700000000000
+      },
+      "importance": null,
+      "triggers": null,
+      "projectKey": null,
+      "headingOnly": true,
+      "relevantFacts": [
+        "heading-status"
+      ]
+    },
+    {
+      "id": "MEMORY.md:51-51",
+      "path": "MEMORY.md",
+      "startLine": 51,
+      "endLine": 51,
+      "text": "- Do not schedule further Birch work.",
+      "hash": "58257a6d2f1a287b041ae81a84a77f9a77416084c0416a6f09c39c73d405a33f",
+      "embeddingInput": {
+        "text": "- Do not schedule further Birch work."
+      },
+      "entryStartLine": 51,
+      "entryEndLine": 51,
+      "provenance": {
+        "originClass": "owner",
+        "sessionKind": "unknown",
+        "observedAt": 1700000000000
+      },
+      "importance": null,
+      "triggers": null,
+      "projectKey": null,
+      "headingOnly": false,
+      "relevantFacts": []
+    },
+    {
+      "id": "MEMORY.md:52-52",
+      "path": "MEMORY.md",
+      "startLine": 52,
+      "endLine": 52,
+      "text": "## Warehouse pickup code: 61820473",
+      "hash": "94f041dfbccf8b7bdd492ddb742530bbb6495f5be4f487976e2d705fee0368a9",
+      "embeddingInput": {
+        "text": "## Warehouse pickup code: 61820473"
+      },
+      "provenance": {
+        "originClass": "owner",
+        "sessionKind": "unknown",
+        "observedAt": 1700000000000
+      },
+      "importance": null,
+      "triggers": null,
+      "projectKey": null,
+      "headingOnly": true,
+      "relevantFacts": [
+        "heading-id"
+      ]
+    },
+    {
+      "id": "MEMORY.md:53-53",
+      "path": "MEMORY.md",
+      "startLine": 53,
+      "endLine": 53,
+      "text": "- Show the code at reception.",
+      "hash": "6a5fe00176213ba73a0f03ec6d5acce8c3c4d86e8fe22efe4a34d46077a0cd3d",
+      "embeddingInput": {
+        "text": "- Show the code at reception."
+      },
+      "entryStartLine": 53,
+      "entryEndLine": 53,
+      "provenance": {
+        "originClass": "owner",
+        "sessionKind": "unknown",
+        "observedAt": 1700000000000
+      },
+      "importance": null,
+      "triggers": null,
+      "projectKey": null,
+      "headingOnly": false,
+      "relevantFacts": []
+    },
+    {
+      "id": "MEMORY.md:54-56",
+      "path": "MEMORY.md",
+      "startLine": 54,
+      "endLine": 56,
+      "text": "### Project: github.com/example/beta\n\n<!-- openclaw-memory-promotion:memory:beta -->",
+      "hash": "7735c1aa63680af3021577512fee66374ffa2b53a4ed9d2f2f34afd32f67b196",
+      "embeddingInput": {
+        "text": "### Project: github.com/example/beta\n\n<!-- openclaw-memory-promotion:memory:beta -->"
+      },
+      "provenance": {
+        "originClass": "owner",
+        "sessionKind": "unknown",
+        "observedAt": 1700000000000
+      },
+      "importance": null,
+      "triggers": null,
+      "projectKey": null,
+      "headingOnly": false,
+      "relevantFacts": []
+    },
+    {
+      "id": "MEMORY.md:57-57",
+      "path": "MEMORY.md",
+      "startLine": 57,
+      "endLine": 57,
+      "text": "- Beta deployment uses region eu-north-1.",
+      "hash": "3dc4323c79e9761dfeaa7978a7cec2305b649669f1684e6bd4aa295ce11d359a",
+      "embeddingInput": {
+        "text": "- Beta deployment uses region eu-north-1."
+      },
+      "entryStartLine": 57,
+      "entryEndLine": 57,
+      "provenance": {
+        "originClass": "owner",
+        "sessionKind": "unknown",
+        "observedAt": 1700000000000
+      },
+      "importance": 9,
+      "triggers": "Beta deployment",
+      "projectKey": "github.com/example/beta",
+      "headingOnly": false,
+      "relevantFacts": [
+        "beta-region"
+      ]
+    },
+    {
+      "id": "MEMORY.md:58-59",
+      "path": "MEMORY.md",
+      "startLine": 58,
+      "endLine": 59,
+      "text": "- Alpha deployment uses region us-west-2.\n",
+      "hash": "db97b4176982652b32bc69f80519a550e83ce698893d0455ac9a275b1f1e4067",
+      "embeddingInput": {
+        "text": "- Alpha deployment uses region us-west-2.\n"
+      },
+      "entryStartLine": 58,
+      "entryEndLine": 59,
+      "provenance": {
+        "originClass": "owner",
+        "sessionKind": "unknown",
+        "observedAt": 1700000000000
+      },
+      "importance": 4,
+      "triggers": "Alpha deployment",
+      "projectKey": "github.com/example/alpha",
+      "headingOnly": false,
+      "relevantFacts": [
+        "alpha-region"
+      ]
+    },
+    {
+      "id": "USER.md:1-1",
+      "path": "USER.md",
+      "startLine": 1,
+      "endLine": 1,
+      "text": "## Personal preference",
+      "hash": "3b856964d8f5e6068b5fa4aada25dc38e4077bb5a4f1547f1ed5eba431e23476",
+      "embeddingInput": {
+        "text": "## Personal preference"
+      },
+      "provenance": {
+        "originClass": "owner",
+        "sessionKind": "unknown",
+        "observedAt": 1700000000000
+      },
+      "importance": null,
+      "triggers": null,
+      "projectKey": null,
+      "headingOnly": true,
+      "relevantFacts": []
+    },
+    {
+      "id": "USER.md:2-3",
+      "path": "USER.md",
+      "startLine": 2,
+      "endLine": 3,
+      "text": "- Replies in German.\n",
+      "hash": "36c1b217a4bffbcf5d8e15c1a2928d1e51cecb5effd0d2742be9baa5709a82c7",
+      "embeddingInput": {
+        "text": "- Replies in German.\n"
+      },
+      "entryStartLine": 2,
+      "entryEndLine": 3,
+      "provenance": {
+        "originClass": "owner",
+        "sessionKind": "unknown",
+        "observedAt": 1700000000000
+      },
+      "importance": null,
+      "triggers": null,
+      "projectKey": null,
+      "headingOnly": false,
+      "relevantFacts": [
+        "user-language"
+      ]
+    },
+    {
+      "id": "memory/standalone.md:1-2",
+      "path": "memory/standalone.md",
+      "startLine": 1,
+      "endLine": 2,
+      "text": "## Fire exit: north stairwell\n",
+      "hash": "2b82d5705dd2e6aef0259b3d52b1d2d6e224f6357ad99f771e5ac674d380cfca",
+      "embeddingInput": {
+        "text": "## Fire exit: north stairwell\n"
+      },
+      "provenance": {
+        "originClass": "owner",
+        "sessionKind": "unknown",
+        "observedAt": 1700000000000
+      },
+      "importance": null,
+      "triggers": null,
+      "projectKey": null,
+      "headingOnly": true,
+      "relevantFacts": [
+        "standalone-heading"
+      ]
+    },
+    {
+      "id": "memory/ordinary.md:1-3",
+      "path": "memory/ordinary.md",
+      "startLine": 1,
+      "endLine": 3,
+      "text": "## Retention policy\nThe synthetic archive keeps exports for fourteen days and then removes them.\n",
+      "hash": "f76828c555cfc1ea26d7d8d22dd46e69eaa5c9da37fe9d706b5d4a649ac78f0a",
+      "embeddingInput": {
+        "text": "## Retention policy\nThe synthetic archive keeps exports for fourteen days and then removes them.\n"
+      },
+      "provenance": {
+        "originClass": "owner",
+        "sessionKind": "unknown",
+        "observedAt": 1700000000000
+      },
+      "importance": null,
+      "triggers": null,
+      "projectKey": null,
+      "headingOnly": false,
+      "relevantFacts": [
+        "ordinary-prose"
+      ]
+    },
+    {
+      "id": "memory/code.md:1-5",
+      "path": "memory/code.md",
+      "startLine": 1,
+      "endLine": 5,
+      "text": "```markdown\n# heading inside a code example\n```\nThe markdown sample is the documented test fixture.\n",
+      "hash": "8c3177e384607f0cb4ba2d9aa6b30fbc58fb9d75a747cb0433061820d2ad5854",
+      "embeddingInput": {
+        "text": "```markdown\n# heading inside a code example\n```\nThe markdown sample is the documented test fixture.\n"
+      },
+      "provenance": {
+        "originClass": "owner",
+        "sessionKind": "unknown",
+        "observedAt": 1700000000000
+      },
+      "importance": null,
+      "triggers": null,
+      "projectKey": null,
+      "headingOnly": false,
+      "relevantFacts": [
+        "code-example"
+      ]
+    }
+  ],
+  "experiment": [
+    {
+      "id": "MEMORY.md:5-5",
+      "path": "MEMORY.md",
+      "startLine": 5,
+      "endLine": 5,
+      "text": "- For overnight flights, Mira prefers an aisle seat away from the lavatory.",
+      "hash": "0da7e0d1b8e02883e19b8399f8b47c595bac00a7bd3ea2dad4fa8eba6376be6c",
+      "embeddingInput": {
+        "text": "- For overnight flights, Mira prefers an aisle seat away from the lavatory."
+      },
+      "entryStartLine": 5,
+      "entryEndLine": 5,
+      "provenance": {
+        "originClass": "owner",
+        "sessionKind": "unknown",
+        "observedAt": 1700000000000
+      },
+      "importance": null,
+      "triggers": null,
+      "projectKey": null,
+      "headingOnly": false,
+      "relevantFacts": [
+        "travel-seat"
+      ]
+    },
+    {
+      "id": "MEMORY.md:6-6",
+      "path": "MEMORY.md",
+      "startLine": 6,
+      "endLine": 6,
+      "text": "- During Berlin visits, Mira stays at the Lindenhof Hotel near the east station.",
+      "hash": "5d8ce1cbc71d67c616f81ea4c9ab121c8fb9dc7058b79a70f31ccfd70837b273",
+      "embeddingInput": {
+        "text": "- During Berlin visits, Mira stays at the Lindenhof Hotel near the east station."
+      },
+      "entryStartLine": 6,
+      "entryEndLine": 6,
+      "provenance": {
+        "originClass": "owner",
+        "sessionKind": "unknown",
+        "observedAt": 1700000000000
+      },
+      "importance": null,
+      "triggers": null,
+      "projectKey": null,
+      "headingOnly": false,
+      "relevantFacts": [
+        "travel-hotel"
+      ]
+    },
+    {
+      "id": "MEMORY.md:7-7",
+      "path": "MEMORY.md",
+      "startLine": 7,
+      "endLine": 7,
+      "text": "- The luggage service booking reference is 48392017.",
+      "hash": "eb5680694db9efaf8b437222ff31e3334ca5114adb51b1ad780a60d3d2c9335e",
+      "embeddingInput": {
+        "text": "- The luggage service booking reference is 48392017."
+      },
+      "entryStartLine": 7,
+      "entryEndLine": 7,
+      "provenance": {
+        "originClass": "owner",
+        "sessionKind": "unknown",
+        "observedAt": 1700000000000
+      },
+      "importance": null,
+      "triggers": null,
+      "projectKey": null,
+      "headingOnly": false,
+      "relevantFacts": [
+        "travel-id"
+      ]
+    },
+    {
+      "id": "MEMORY.md:10-10",
+      "path": "MEMORY.md",
+      "startLine": 10,
+      "endLine": 10,
+      "text": "- The Atlas migration owner is Devon Chen; questions about the cutover go to Devon.",
+      "hash": "5dccc83aef818a36c398bc05f8019f3d102465a21c6464a9e2c98af6ae46db14",
+      "embeddingInput": {
+        "text": "- The Atlas migration owner is Devon Chen; questions about the cutover go to Devon."
+      },
+      "entryStartLine": 10,
+      "entryEndLine": 10,
+      "provenance": {
+        "originClass": "owner",
+        "sessionKind": "unknown",
+        "observedAt": 1700000000000
+      },
+      "importance": 7,
+      "triggers": null,
+      "projectKey": "github.com/example/atlas",
+      "headingOnly": false,
+      "relevantFacts": [
+        "atlas-owner"
+      ]
+    },
+    {
+      "id": "MEMORY.md:11-11",
+      "path": "MEMORY.md",
+      "startLine": 11,
+      "endLine": 11,
+      "text": "- Atlas production cutover is scheduled for 2026-11-08 at 02:00 UTC.",
+      "hash": "8a93c77dd509e073b8da2edff426d4720fafd91a32c6840ff3bd68e6f0b41d3d",
+      "embeddingInput": {
+        "text": "- Atlas production cutover is scheduled for 2026-11-08 at 02:00 UTC."
+      },
+      "entryStartLine": 11,
+      "entryEndLine": 11,
+      "provenance": {
+        "originClass": "owner",
+        "sessionKind": "unknown",
+        "observedAt": 1700000000000
+      },
+      "importance": 7,
+      "triggers": null,
+      "projectKey": "github.com/example/atlas",
+      "headingOnly": false,
+      "relevantFacts": [
+        "atlas-date"
+      ]
+    },
+    {
+      "id": "MEMORY.md:12-12",
+      "path": "MEMORY.md",
+      "startLine": 12,
+      "endLine": 12,
+      "text": "- Atlas staging listens on TCP port 7419.",
+      "hash": "ded22652ebd12d765e6f601673970aee25d9030bd736f5d1020e0080fc1915c8",
+      "embeddingInput": {
+        "text": "- Atlas staging listens on TCP port 7419."
+      },
+      "entryStartLine": 12,
+      "entryEndLine": 12,
+      "provenance": {
+        "originClass": "owner",
+        "sessionKind": "unknown",
+        "observedAt": 1700000000000
+      },
+      "importance": 7,
+      "triggers": null,
+      "projectKey": "github.com/example/atlas",
+      "headingOnly": false,
+      "relevantFacts": [
+        "atlas-port"
+      ]
+    },
+    {
+      "id": "MEMORY.md:15-15",
+      "path": "MEMORY.md",
+      "startLine": 15,
+      "endLine": 15,
+      "text": "- Invoices from Northstar Hosting map to account 6210 for the synthetic Acorn account.",
+      "hash": "912cb2a63fa0817b0c715067957b0c8141f2a8ce36188cebfeb7c16ce696f334",
+      "embeddingInput": {
+        "text": "- Invoices from Northstar Hosting map to account 6210 for the synthetic Acorn account."
+      },
+      "entryStartLine": 15,
+      "entryEndLine": 15,
+      "provenance": {
+        "originClass": "owner",
+        "sessionKind": "unknown",
+        "observedAt": 1700000000000
+      },
+      "importance": null,
+      "triggers": null,
+      "projectKey": null,
+      "headingOnly": false,
+      "relevantFacts": [
+        "finance-map"
+      ]
+    },
+    {
+      "id": "MEMORY.md:16-16",
+      "path": "MEMORY.md",
+      "startLine": 16,
+      "endLine": 16,
+      "text": "- Blue Finch Studio invoices are due forty-five days after their issue date.",
+      "hash": "1819acd22aa0bbadd95a983c9d657708fde14660038ce3b9ce8329eb42d18eee",
+      "embeddingInput": {
+        "text": "- Blue Finch Studio invoices are due forty-five days after their issue date."
+      },
+      "entryStartLine": 16,
+      "entryEndLine": 16,
+      "provenance": {
+        "originClass": "owner",
+        "sessionKind": "unknown",
+        "observedAt": 1700000000000
+      },
+      "importance": null,
+      "triggers": null,
+      "projectKey": null,
+      "headingOnly": false,
+      "relevantFacts": [
+        "finance-terms"
+      ]
+    },
+    {
+      "id": "MEMORY.md:17-17",
+      "path": "MEMORY.md",
+      "startLine": 17,
+      "endLine": 17,
+      "text": "- The bookkeeping export code for Blue Finch Studio is BF-029184.",
+      "hash": "e4500ede4bc15223e498138fa533a04eb84482206b825e34029beba38e9e1e3f",
+      "embeddingInput": {
+        "text": "- The bookkeeping export code for Blue Finch Studio is BF-029184."
+      },
+      "entryStartLine": 17,
+      "entryEndLine": 17,
+      "provenance": {
+        "originClass": "owner",
+        "sessionKind": "unknown",
+        "observedAt": 1700000000000
+      },
+      "importance": null,
+      "triggers": null,
+      "projectKey": null,
+      "headingOnly": false,
+      "relevantFacts": [
+        "finance-code"
+      ]
+    },
+    {
+      "id": "MEMORY.md:20-20",
+      "path": "MEMORY.md",
+      "startLine": 20,
+      "endLine": 20,
+      "text": "- Sam needs captions enabled for every remote meeting because speech alone is difficult to follow.",
+      "hash": "869bcf5bf46b503ce735aac448728b2f32e4d43d963b889c804da36941de2bc4",
+      "embeddingInput": {
+        "text": "- Sam needs captions enabled for every remote meeting because speech alone is difficult to follow."
+      },
+      "entryStartLine": 20,
+      "entryEndLine": 20,
+      "provenance": {
+        "originClass": "owner",
+        "sessionKind": "unknown",
+        "observedAt": 1700000000000
+      },
+      "importance": null,
+      "triggers": null,
+      "projectKey": null,
+      "headingOnly": false,
+      "relevantFacts": [
+        "access-captions"
+      ]
+    },
+    {
+      "id": "MEMORY.md:21-21",
+      "path": "MEMORY.md",
+      "startLine": 21,
+      "endLine": 21,
+      "text": "- Sam prefers reduced motion and no autoplaying animations in the dashboard.",
+      "hash": "b204acb3e071bf9122428dc832e0b7336d41440ac37f3ab9114c4cc45449818e",
+      "embeddingInput": {
+        "text": "- Sam prefers reduced motion and no autoplaying animations in the dashboard."
+      },
+      "entryStartLine": 21,
+      "entryEndLine": 21,
+      "provenance": {
+        "originClass": "owner",
+        "sessionKind": "unknown",
+        "observedAt": 1700000000000
+      },
+      "importance": null,
+      "triggers": null,
+      "projectKey": null,
+      "headingOnly": false,
+      "relevantFacts": [
+        "access-motion"
+      ]
+    },
+    {
+      "id": "MEMORY.md:22-22",
+      "path": "MEMORY.md",
+      "startLine": 22,
+      "endLine": 22,
+      "text": "- Use the high-contrast interface theme for Sam during screen sharing.",
+      "hash": "d8095a8c582bcd542793dcc9c4563b1c58676f7f927a5e9faac59dac957f2ef2",
+      "embeddingInput": {
+        "text": "- Use the high-contrast interface theme for Sam during screen sharing."
+      },
+      "entryStartLine": 22,
+      "entryEndLine": 22,
+      "provenance": {
+        "originClass": "owner",
+        "sessionKind": "unknown",
+        "observedAt": 1700000000000
+      },
+      "importance": null,
+      "triggers": null,
+      "projectKey": null,
+      "headingOnly": false,
+      "relevantFacts": [
+        "access-contrast"
+      ]
+    },
+    {
+      "id": "MEMORY.md:25-25",
+      "path": "MEMORY.md",
+      "startLine": 25,
+      "endLine": 25,
+      "text": "- For a stalled Oriole import, pause its scheduler before retrying the failed batch once.",
+      "hash": "0eabd850ac3c9147003b55a6b862fd86bf84ee6af7b9007862626ce9fc1fd8fb",
+      "embeddingInput": {
+        "text": "- For a stalled Oriole import, pause its scheduler before retrying the failed batch once."
+      },
+      "entryStartLine": 25,
+      "entryEndLine": 25,
+      "provenance": {
+        "originClass": "owner",
+        "sessionKind": "unknown",
+        "observedAt": 1700000000000
+      },
+      "importance": null,
+      "triggers": null,
+      "projectKey": null,
+      "headingOnly": false,
+      "relevantFacts": [
+        "incident-recovery"
+      ]
+    },
+    {
+      "id": "MEMORY.md:26-26",
+      "path": "MEMORY.md",
+      "startLine": 26,
+      "endLine": 26,
+      "text": "- If the Oriole import fails twice, escalate to the data platform on-call instead of retrying again.",
+      "hash": "d79e51436c00a64e60161f5c871a9aa64261097114fc6d3136ac256b40db0ba7",
+      "embeddingInput": {
+        "text": "- If the Oriole import fails twice, escalate to the data platform on-call instead of retrying again."
+      },
+      "entryStartLine": 26,
+      "entryEndLine": 26,
+      "provenance": {
+        "originClass": "owner",
+        "sessionKind": "unknown",
+        "observedAt": 1700000000000
+      },
+      "importance": null,
+      "triggers": null,
+      "projectKey": null,
+      "headingOnly": false,
+      "relevantFacts": [
+        "incident-escalation"
+      ]
+    },
+    {
+      "id": "MEMORY.md:27-27",
+      "path": "MEMORY.md",
+      "startLine": 27,
+      "endLine": 27,
+      "text": "- The synthetic Oriole outage incident number is 90715264.",
+      "hash": "6776f3c01933466efa0261697b8485a5cbeb9ad8b37d6374caa9a2a786f965ab",
+      "embeddingInput": {
+        "text": "- The synthetic Oriole outage incident number is 90715264."
+      },
+      "entryStartLine": 27,
+      "entryEndLine": 27,
+      "provenance": {
+        "originClass": "owner",
+        "sessionKind": "unknown",
+        "observedAt": 1700000000000
+      },
+      "importance": null,
+      "triggers": null,
+      "projectKey": null,
+      "headingOnly": false,
+      "relevantFacts": [
+        "incident-id"
+      ]
+    },
+    {
+      "id": "MEMORY.md:30-30",
+      "path": "MEMORY.md",
+      "startLine": 30,
+      "endLine": 30,
+      "text": "- Priya is vegan and does not eat honey.",
+      "hash": "f6949f6169560102cd04514530abf7b9c2a1a4e71f86c77301419734c2f655be",
+      "embeddingInput": {
+        "text": "- Priya is vegan and does not eat honey."
+      },
+      "entryStartLine": 30,
+      "entryEndLine": 30,
+      "provenance": {
+        "originClass": "owner",
+        "sessionKind": "unknown",
+        "observedAt": 1700000000000
+      },
+      "importance": null,
+      "triggers": null,
+      "projectKey": null,
+      "headingOnly": false,
+      "relevantFacts": [
+        "food-diet"
+      ]
+    },
+    {
+      "id": "MEMORY.md:31-31",
+      "path": "MEMORY.md",
+      "startLine": 31,
+      "endLine": 31,
+      "text": "- Priya drinks decaffeinated coffee after noon.",
+      "hash": "f4818549efaa9f8c261df2ee7bbd65254f31165e104a6cbeae9886086a89960e",
+      "embeddingInput": {
+        "text": "- Priya drinks decaffeinated coffee after noon."
+      },
+      "entryStartLine": 31,
+      "entryEndLine": 31,
+      "provenance": {
+        "originClass": "owner",
+        "sessionKind": "unknown",
+        "observedAt": 1700000000000
+      },
+      "importance": null,
+      "triggers": null,
+      "projectKey": null,
+      "headingOnly": false,
+      "relevantFacts": [
+        "food-drink"
+      ]
+    },
+    {
+      "id": "MEMORY.md:32-32",
+      "path": "MEMORY.md",
+      "startLine": 32,
+      "endLine": 32,
+      "text": "- Priya is allergic to cashews.",
+      "hash": "9e549e666fea5da50e00f201d63b6f35f27e4866117d3294b4497637b62afac2",
+      "embeddingInput": {
+        "text": "- Priya is allergic to cashews."
+      },
+      "entryStartLine": 32,
+      "entryEndLine": 32,
+      "provenance": {
+        "originClass": "owner",
+        "sessionKind": "unknown",
+        "observedAt": 1700000000000
+      },
+      "importance": null,
+      "triggers": null,
+      "projectKey": null,
+      "headingOnly": false,
+      "relevantFacts": [
+        "food-allergy"
+      ]
+    },
+    {
+      "id": "MEMORY.md:35-35",
+      "path": "MEMORY.md",
+      "startLine": 35,
+      "endLine": 35,
+      "text": "- The Juniper release checklist requires a canary deployment followed by a fifteen-minute error-rate check.",
+      "hash": "283032fa2818b55c9a83db307ac65487c554426c8af8b5bb6a9ac669cd074bcc",
+      "embeddingInput": {
+        "text": "- The Juniper release checklist requires a canary deployment followed by a fifteen-minute error-rate check."
+      },
+      "entryStartLine": 35,
+      "entryEndLine": 35,
+      "provenance": {
+        "originClass": "owner",
+        "sessionKind": "unknown",
+        "observedAt": 1700000000000
+      },
+      "importance": null,
+      "triggers": null,
+      "projectKey": null,
+      "headingOnly": false,
+      "relevantFacts": [
+        "release-check"
+      ]
+    },
+    {
+      "id": "MEMORY.md:36-36",
+      "path": "MEMORY.md",
+      "startLine": 36,
+      "endLine": 36,
+      "text": "- Taylor is responsible for approving Juniper production releases.",
+      "hash": "62230ccbb1122f23ce9ae998cc8f838c01ebba2d7fce6659549559a57fd550c0",
+      "embeddingInput": {
+        "text": "- Taylor is responsible for approving Juniper production releases."
+      },
+      "entryStartLine": 36,
+      "entryEndLine": 36,
+      "provenance": {
+        "originClass": "owner",
+        "sessionKind": "unknown",
+        "observedAt": 1700000000000
+      },
+      "importance": null,
+      "triggers": null,
+      "projectKey": null,
+      "headingOnly": false,
+      "relevantFacts": [
+        "release-owner"
+      ]
+    },
+    {
+      "id": "MEMORY.md:37-37",
+      "path": "MEMORY.md",
+      "startLine": 37,
+      "endLine": 37,
+      "text": "- The synthetic Juniper rollback reference is release-2037-amber.",
+      "hash": "84b8f5ba06b7cf8cf18409c4682fc52360a09735e82178ddbadec31c8b3910ce",
+      "embeddingInput": {
+        "text": "- The synthetic Juniper rollback reference is release-2037-amber."
+      },
+      "entryStartLine": 37,
+      "entryEndLine": 37,
+      "provenance": {
+        "originClass": "owner",
+        "sessionKind": "unknown",
+        "observedAt": 1700000000000
+      },
+      "importance": null,
+      "triggers": null,
+      "projectKey": null,
+      "headingOnly": false,
+      "relevantFacts": [
+        "release-tag"
+      ]
+    },
+    {
+      "id": "MEMORY.md:40-40",
+      "path": "MEMORY.md",
+      "startLine": 40,
+      "endLine": 40,
+      "text": "- A customer unable to export their records gets priority two unless data is being lost.",
+      "hash": "821ba2a457e35f24f61ebdff0f0a8bf48917d56bf56bfad2cac65a4bb032e80f",
+      "embeddingInput": {
+        "text": "- A customer unable to export their records gets priority two unless data is being lost."
+      },
+      "entryStartLine": 40,
+      "entryEndLine": 40,
+      "provenance": {
+        "originClass": "owner",
+        "sessionKind": "unknown",
+        "observedAt": 1700000000000
+      },
+      "importance": null,
+      "triggers": null,
+      "projectKey": null,
+      "headingOnly": false,
+      "relevantFacts": [
+        "support-priority"
+      ]
+    },
+    {
+      "id": "MEMORY.md:41-41",
+      "path": "MEMORY.md",
+      "startLine": 41,
+      "endLine": 41,
+      "text": "- The North team covers support from 07:00 to 15:00 UTC on weekdays.",
+      "hash": "bcde1fb556cf563fa4f63172fbb222e2802c3bd44fd8cc1c012428ae0a72907b",
+      "embeddingInput": {
+        "text": "- The North team covers support from 07:00 to 15:00 UTC on weekdays."
+      },
+      "entryStartLine": 41,
+      "entryEndLine": 41,
+      "provenance": {
+        "originClass": "owner",
+        "sessionKind": "unknown",
+        "observedAt": 1700000000000
+      },
+      "importance": null,
+      "triggers": null,
+      "projectKey": null,
+      "headingOnly": false,
+      "relevantFacts": [
+        "support-hours"
+      ]
+    },
+    {
+      "id": "MEMORY.md:42-42",
+      "path": "MEMORY.md",
+      "startLine": 42,
+      "endLine": 42,
+      "text": "- Support queue ticket 58273016 belongs to the North team.",
+      "hash": "2de2a9e0aad31f200d2b742c12801d1c56a61c36742e8f81966c206fababe410",
+      "embeddingInput": {
+        "text": "- Support queue ticket 58273016 belongs to the North team."
+      },
+      "entryStartLine": 42,
+      "entryEndLine": 42,
+      "provenance": {
+        "originClass": "owner",
+        "sessionKind": "unknown",
+        "observedAt": 1700000000000
+      },
+      "importance": null,
+      "triggers": null,
+      "projectKey": null,
+      "headingOnly": false,
+      "relevantFacts": [
+        "support-code"
+      ]
+    },
+    {
+      "id": "MEMORY.md:45-45",
+      "path": "MEMORY.md",
+      "startLine": 45,
+      "endLine": 45,
+      "text": "- TZ: UTC.",
+      "hash": "861f09af172b28a4c667320321889c571707a636dceefaf5ef06bc1f3b2cb67a",
+      "embeddingInput": {
+        "text": "- TZ: UTC."
+      },
+      "entryStartLine": 45,
+      "entryEndLine": 45,
+      "provenance": {
+        "originClass": "owner",
+        "sessionKind": "unknown",
+        "observedAt": 1700000000000
+      },
+      "importance": null,
+      "triggers": null,
+      "projectKey": null,
+      "headingOnly": false,
+      "relevantFacts": [
+        "short-timezone"
+      ]
+    },
+    {
+      "id": "MEMORY.md:46-46",
+      "path": "MEMORY.md",
+      "startLine": 46,
+      "endLine": 46,
+      "text": "- Locale: de-AT.",
+      "hash": "4f8cf653d4bf646948c07eaeb8c10b3b9f83bf0dc4cb8c7e5596cc187658e49a",
+      "embeddingInput": {
+        "text": "- Locale: de-AT."
+      },
+      "entryStartLine": 46,
+      "entryEndLine": 46,
+      "provenance": {
+        "originClass": "owner",
+        "sessionKind": "unknown",
+        "observedAt": 1700000000000
+      },
+      "importance": null,
+      "triggers": null,
+      "projectKey": null,
+      "headingOnly": false,
+      "relevantFacts": [
+        "short-language"
+      ]
+    },
+    {
+      "id": "MEMORY.md:47-47",
+      "path": "MEMORY.md",
+      "startLine": 47,
+      "endLine": 47,
+      "text": "- Size: XS.",
+      "hash": "16fcaba06e536c2aca38683cb19ed8914d9c17d5a19046e7f87457454f66b42e",
+      "embeddingInput": {
+        "text": "- Size: XS."
+      },
+      "entryStartLine": 47,
+      "entryEndLine": 47,
+      "provenance": {
+        "originClass": "owner",
+        "sessionKind": "unknown",
+        "observedAt": 1700000000000
+      },
+      "importance": null,
+      "triggers": null,
+      "projectKey": null,
+      "headingOnly": false,
+      "relevantFacts": [
+        "short-size"
+      ]
+    },
+    {
+      "id": "MEMORY.md:49-49",
+      "path": "MEMORY.md",
+      "startLine": 49,
+      "endLine": 49,
+      "text": "- Cedar is coordinated by Ada.",
+      "hash": "be3ab11c3b6ddea5836a20f722c62a12c838187370ee42786fd573c1ae06cfab",
+      "embeddingInput": {
+        "text": "- Cedar is coordinated by Ada."
+      },
+      "entryStartLine": 49,
+      "entryEndLine": 49,
+      "provenance": {
+        "originClass": "owner",
+        "sessionKind": "unknown",
+        "observedAt": 1700000000000
+      },
+      "importance": null,
+      "triggers": null,
+      "projectKey": null,
+      "headingOnly": false,
+      "relevantFacts": []
+    },
+    {
+      "id": "MEMORY.md:51-51",
+      "path": "MEMORY.md",
+      "startLine": 51,
+      "endLine": 51,
+      "text": "- Do not schedule further Birch work.",
+      "hash": "58257a6d2f1a287b041ae81a84a77f9a77416084c0416a6f09c39c73d405a33f",
+      "embeddingInput": {
+        "text": "- Do not schedule further Birch work."
+      },
+      "entryStartLine": 51,
+      "entryEndLine": 51,
+      "provenance": {
+        "originClass": "owner",
+        "sessionKind": "unknown",
+        "observedAt": 1700000000000
+      },
+      "importance": null,
+      "triggers": null,
+      "projectKey": null,
+      "headingOnly": false,
+      "relevantFacts": []
+    },
+    {
+      "id": "MEMORY.md:53-53",
+      "path": "MEMORY.md",
+      "startLine": 53,
+      "endLine": 53,
+      "text": "- Show the code at reception.",
+      "hash": "6a5fe00176213ba73a0f03ec6d5acce8c3c4d86e8fe22efe4a34d46077a0cd3d",
+      "embeddingInput": {
+        "text": "- Show the code at reception."
+      },
+      "entryStartLine": 53,
+      "entryEndLine": 53,
+      "provenance": {
+        "originClass": "owner",
+        "sessionKind": "unknown",
+        "observedAt": 1700000000000
+      },
+      "importance": null,
+      "triggers": null,
+      "projectKey": null,
+      "headingOnly": false,
+      "relevantFacts": []
+    },
+    {
+      "id": "MEMORY.md:54-56",
+      "path": "MEMORY.md",
+      "startLine": 54,
+      "endLine": 56,
+      "text": "### Project: github.com/example/beta\n\n<!-- openclaw-memory-promotion:memory:beta -->",
+      "hash": "7735c1aa63680af3021577512fee66374ffa2b53a4ed9d2f2f34afd32f67b196",
+      "embeddingInput": {
+        "text": "### Project: github.com/example/beta\n\n<!-- openclaw-memory-promotion:memory:beta -->"
+      },
+      "provenance": {
+        "originClass": "owner",
+        "sessionKind": "unknown",
+        "observedAt": 1700000000000
+      },
+      "importance": null,
+      "triggers": null,
+      "projectKey": null,
+      "headingOnly": false,
+      "relevantFacts": []
+    },
+    {
+      "id": "MEMORY.md:57-57",
+      "path": "MEMORY.md",
+      "startLine": 57,
+      "endLine": 57,
+      "text": "- Beta deployment uses region eu-north-1.",
+      "hash": "3dc4323c79e9761dfeaa7978a7cec2305b649669f1684e6bd4aa295ce11d359a",
+      "embeddingInput": {
+        "text": "- Beta deployment uses region eu-north-1."
+      },
+      "entryStartLine": 57,
+      "entryEndLine": 57,
+      "provenance": {
+        "originClass": "owner",
+        "sessionKind": "unknown",
+        "observedAt": 1700000000000
+      },
+      "importance": 9,
+      "triggers": "Beta deployment",
+      "projectKey": "github.com/example/beta",
+      "headingOnly": false,
+      "relevantFacts": [
+        "beta-region"
+      ]
+    },
+    {
+      "id": "MEMORY.md:58-59",
+      "path": "MEMORY.md",
+      "startLine": 58,
+      "endLine": 59,
+      "text": "- Alpha deployment uses region us-west-2.\n",
+      "hash": "db97b4176982652b32bc69f80519a550e83ce698893d0455ac9a275b1f1e4067",
+      "embeddingInput": {
+        "text": "- Alpha deployment uses region us-west-2.\n"
+      },
+      "entryStartLine": 58,
+      "entryEndLine": 59,
+      "provenance": {
+        "originClass": "owner",
+        "sessionKind": "unknown",
+        "observedAt": 1700000000000
+      },
+      "importance": 4,
+      "triggers": "Alpha deployment",
+      "projectKey": "github.com/example/alpha",
+      "headingOnly": false,
+      "relevantFacts": [
+        "alpha-region"
+      ]
+    },
+    {
+      "id": "USER.md:2-3",
+      "path": "USER.md",
+      "startLine": 2,
+      "endLine": 3,
+      "text": "- Replies in German.\n",
+      "hash": "36c1b217a4bffbcf5d8e15c1a2928d1e51cecb5effd0d2742be9baa5709a82c7",
+      "embeddingInput": {
+        "text": "- Replies in German.\n"
+      },
+      "entryStartLine": 2,
+      "entryEndLine": 3,
+      "provenance": {
+        "originClass": "owner",
+        "sessionKind": "unknown",
+        "observedAt": 1700000000000
+      },
+      "importance": null,
+      "triggers": null,
+      "projectKey": null,
+      "headingOnly": false,
+      "relevantFacts": [
+        "user-language"
+      ]
+    },
+    {
+      "id": "memory/ordinary.md:1-3",
+      "path": "memory/ordinary.md",
+      "startLine": 1,
+      "endLine": 3,
+      "text": "## Retention policy\nThe synthetic archive keeps exports for fourteen days and then removes them.\n",
+      "hash": "f76828c555cfc1ea26d7d8d22dd46e69eaa5c9da37fe9d706b5d4a649ac78f0a",
+      "embeddingInput": {
+        "text": "## Retention policy\nThe synthetic archive keeps exports for fourteen days and then removes them.\n"
+      },
+      "provenance": {
+        "originClass": "owner",
+        "sessionKind": "unknown",
+        "observedAt": 1700000000000
+      },
+      "importance": null,
+      "triggers": null,
+      "projectKey": null,
+      "headingOnly": false,
+      "relevantFacts": [
+        "ordinary-prose"
+      ]
+    },
+    {
+      "id": "memory/code.md:1-5",
+      "path": "memory/code.md",
+      "startLine": 1,
+      "endLine": 5,
+      "text": "```markdown\n# heading inside a code example\n```\nThe markdown sample is the documented test fixture.\n",
+      "hash": "8c3177e384607f0cb4ba2d9aa6b30fbc58fb9d75a747cb0433061820d2ad5854",
+      "embeddingInput": {
+        "text": "```markdown\n# heading inside a code example\n```\nThe markdown sample is the documented test fixture.\n"
+      },
+      "provenance": {
+        "originClass": "owner",
+        "sessionKind": "unknown",
+        "observedAt": 1700000000000
+      },
+      "importance": null,
+      "triggers": null,
+      "projectKey": null,
+      "headingOnly": false,
+      "relevantFacts": [
+        "code-example"
+      ]
+    }
+  ]
+}

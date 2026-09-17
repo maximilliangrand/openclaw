@@ -1,0 +1,45 @@
+{
+  "frozenAt": "2026-09-17T17:41:28.031Z",
+  "sourceSha": "a5693d75209158c691badb66f4408a00a1ff89dc",
+  "corpusSha256": "5e3a68cb2b51f88e659e3730358a5e8c99aadc005e350b407b915f2d0a37f5d1",
+  "chunking": {
+    "tokens": 400,
+    "overlap": 40
+  },
+  "experiment": "Filter only chunks whose nonblank lines all match ATX headings; do not merge or edit retained chunks. This is a policy experiment, not a product patch. Known heading-fact negative controls are included.",
+  "models": [
+    {
+      "name": "qwen3-embedding:0.6b",
+      "modes": [
+        "bare",
+        "instruct"
+      ]
+    },
+    {
+      "name": "nomic-embed-text:latest",
+      "modes": [
+        "search prefixes"
+      ]
+    }
+  ],
+  "queryInstruction": "Given a search query, retrieve relevant personal memory passages that answer the query",
+  "metrics": [
+    "recall@1",
+    "recall@3",
+    "recall@5",
+    "MRR",
+    "heading-only share@3",
+    "irrelevant heading-only share@3"
+  ],
+  "controls": [
+    "short factual notes",
+    "heading-only facts",
+    "numeric identifiers",
+    "ordinary prose",
+    "code fence",
+    "per-entry project/trigger/importance annotations",
+    "citation ranges",
+    "provenance"
+  ],
+  "selection": "Manually authored synthetic corpus and judgments, frozen before embedding. No tuning after outcomes. One relevant fact per answerable query. No claim to reproduce reporter corpus or exact runtime."
+}
